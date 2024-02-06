@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en">
     
-<!-- Mirrored from themedox.com/demo/xolio/services-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 Jan 2024 08:38:36 GMT -->
+<!-- Mirrored from themedox.com/demo/xolio/project-details.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 Jan 2024 08:38:31 GMT -->
 <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -57,32 +57,32 @@
                             <div class="menu-wrap">
                                 <nav class="menu-nav">
                                     <div class="logo">
-                                        <a href="index.html"><img src="assets/img/logo/logo.png" alt="Logo"></a>
+                                        <a href="index.php"><img src="assets/img/logo/logo.png" alt="Logo"></a>
                                     </div>
                                     <div class="navbar-wrap main-menu d-none d-lg-flex">
                                         <ul class="navigation">
                                             <li class="menu-item-has-children"><a href="#">Home</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="index.html">Creative Agency</a></li>
-                                                    <li><a href="index-2.html">Personal Portfolio</a></li>
-                                                    <li><a href="index-3.html">Digital Agency</a></li>
+                                                    <li><a href="index.php">Creative Agency</a></li>
+                                                    <li><a href="index-2.php">Personal Portfolio</a></li>
+                                                    <li><a href="index-3.php">Digital Agency</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="about-us.html">About Us</a></li>
+                                            <li><a href="about-us.php">About Us</a></li>
                                             <li class="active menu-item-has-children"><a href="#">pages</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="about-me.html">About Me</a></li>
-                                                    <li><a href="team.html">Team Page</a></li>
-                                                    <li><a href="team-details.html">Team Details</a></li>
-                                                    <li><a href="project-details.html">Portfolio Details</a></li>
-                                                    <li class="active"><a href="services-details.html">Services Details</a></li>
-                                                    <li><a href="contact.html">Contact Us</a></li>
+                                                    <li><a href="about-me.php">About Me</a></li>
+                                                    <li><a href="team.php">Team Page</a></li>
+                                                    <li><a href="team-details.php">Team Details</a></li>
+                                                    <li class="active"><a href="project-details.php">Portfolio Details</a></li>
+                                                    <li><a href="services-details.php">Services Details</a></li>
+                                                    <li><a href="contact.php">Contact Us</a></li>
                                                 </ul>
                                             </li>
                                             <li class="menu-item-has-children"><a href="#">News</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="blog.html">Our Blog</a></li>
-                                                    <li><a href="blog-details.html">Blog Details</a></li>
+                                                    <li><a href="blog.php">Our Blog</a></li>
+                                                    <li><a href="blog-details.php">Blog Details</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -100,7 +100,7 @@
                                 <nav class="menu-box">
                                     <div class="close-btn"><i class="fas fa-times"></i></div>
                                     <div class="nav-logo">
-                                        <a href="index.html"><img src="assets/img/logo/logo.png" alt="Logo"></a>
+                                        <a href="index.php"><img src="assets/img/logo/logo.png" alt="Logo"></a>
                                     </div>
                                     <div class="menu-outer">
                                         <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
@@ -169,7 +169,7 @@
                                                     </li>
                                                 </ul>
                                                 <div class="lats-chat">
-                                                    <a href="contact.html">Lat’s Chat</a>
+                                                    <a href="contact.php">Lat’s Chat</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -177,7 +177,7 @@
                                             <div class="our-best-project">
                                                 <div class="content">
                                                     <h4 class="title">One of Our <span>Best Ongoing</span> Projects</h4>
-                                                    <a href="project-details.html" class="btn">Details <span></span></a>
+                                                    <a href="project-details.php" class="btn">Details <span></span></a>
                                                 </div>
                                                 <div class="thumb">
                                                     <img src="assets/img/images/our_project_img.png" alt="">
@@ -196,11 +196,11 @@
                                             <h4 class="title">Need Help Choosing a Plan?</h4>
                                         </div>
                                         <p>We offer solutions for businesses of all sizes. For questions about our plans and products,,
-                                            contact our team of experts. <a href="contact.html">Get in touch</a></p>
+                                            contact our team of experts. <a href="contact.php">Get in touch</a></p>
                                     </div>
                                     <div class="content-bottom">
-                                        <a href="contact.html">Support</a>
-                                        <a href="contact.html">Documentation</a>
+                                        <a href="contact.php">Support</a>
+                                        <a href="contact.php">Documentation</a>
                                     </div>
                                 </div>
                             </div>
@@ -224,11 +224,11 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="breadcrumb-content">
-                                <h2 class="title">Web Design</h2>
+                                <h2 class="title">Portfolio Details</h2>
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
-                                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                        <li class="breadcrumb-item active" aria-current="page">Service Details</li>
+                                        <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">Portfolio Details</li>
                                     </ol>
                                 </nav>
                             </div>
@@ -238,64 +238,60 @@
             </section>
             <!-- breadcrumb-area-end -->
 
-            <!-- services-details-area -->
-            <div class="services-details-area">
+            <!-- project-details-area -->
+            <section class="project-details-area pt-40 pb-120">
                 <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-xl-8 col-lg-10">
-                            <div class="services-details-img text-center">
-                                <img src="assets/img/images/services_details_img.png" alt="">
-                            </div>
-                            <div class="services-details-content text-center">
-                                <p>Lorem ipsum dolor sit amet, sed nulla ante amet, elementum tincidunt arcu sed laoreet, natoque ac eget imperdiet. Ac scelerisque nibh dolores consectetuer, nulla aptent est pede. Scelerisque euismod varius mi, congue eget sed vestibulum, ornare cras sed nec.</p>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="project-details-inner">
+                                <div class="project-details-img">
+                                    <img src="assets/img/images/project_details_img.jpg" alt="">
+                                </div>
+                                <div class="project-details-content">
+                                    <h2 class="title">Creative Agency</h2>
+                                    <p>Lorem ipsum dolor sit amet, sed nulla ante amet, elementum tincidunt arcu sed laoreet, natoque ac eget imperdiet. Ac scelerisque nibh dolores consectetuer, nulla aptent est pede. Scelerisque euismod varius mi, congue eget sed vestibulum, ornare cras sed nec. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form have suffered alteration in some form.</p>
+                                </div>
+                                <div class="row align-items-center">
+                                    <div class="col-lg-12">
+                                        <div class="counter-item-wrap-four">
+                                            <ul class="list-wrap">
+                                                <li>
+                                                    <div class="counter-item-four">
+                                                        <h2 class="count"><span class="odometer" data-count="15"></span>K+</h2>
+                                                        <p>Entries in <span>Accunting</span></p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="counter-item-four">
+                                                        <h2 class="count"><span class="odometer" data-count="120"></span>+</h2>
+                                                        <p>International <span>Programs</span></p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="counter-item-four">
+                                                        <h2 class="count"><span class="odometer" data-count="46"></span>+</h2>
+                                                        <p>Countries in<span>The World</span></p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="counter-item-four">
+                                                        <h2 class="count"><span class="odometer" data-count="17"></span>+</h2>
+                                                        <p>Awards <span>Programs</span></p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="services-details-shape">
+                <div class="project-shape-wrap">
                     <img src="assets/img/images/services_details_shape.png" alt="">
                 </div>
-            </div>
-            <!-- services-details-area-end -->
-
-            <!-- counter-area -->
-            <section class="counter-area-four pt-100 pb-120">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-12">
-                            <div class="counter-item-wrap-four">
-                                <ul class="list-wrap">
-                                    <li>
-                                        <div class="counter-item-four">
-                                            <h2 class="count"><span class="odometer" data-count="15"></span>K+</h2>
-                                            <p>Entries in <span>Accunting</span></p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="counter-item-four">
-                                            <h2 class="count"><span class="odometer" data-count="120"></span>+</h2>
-                                            <p>International <span>Programs</span></p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="counter-item-four">
-                                            <h2 class="count"><span class="odometer" data-count="46"></span>+</h2>
-                                            <p>Countries in<span>The World</span></p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="counter-item-four">
-                                            <h2 class="count"><span class="odometer" data-count="17"></span>+</h2>
-                                            <p>Awards <span>Programs</span></p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </section>
-            <!-- counter-area-two -->
+            <!-- project-details-area-end -->
 
             <!-- company-area -->
             <section class="company-area">
@@ -339,7 +335,7 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <a href="about-me.html" class="btn">Discover More <span></span></a>
+                                <a href="about-me.php" class="btn">Discover More <span></span></a>
                             </div>
                         </div>
                     </div>
@@ -369,7 +365,7 @@
                                         <img src="assets/img/icon/inner_two_services_icon01.png" alt="">
                                     </div>
                                     <div class="services-content-five">
-                                        <h2 class="title"><a href="services-details.html">User Interaction <span>Design</span></a></h2>
+                                        <h2 class="title"><a href="services-details.php">User Interaction <span>Design</span></a></h2>
                                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                                     </div>
                                 </div>
@@ -380,7 +376,7 @@
                                         <img src="assets/img/icon/inner_two_services_icon02.png" alt="">
                                     </div>
                                     <div class="services-content-five">
-                                        <h2 class="title"><a href="services-details.html">Production <span>Design</span></a></h2>
+                                        <h2 class="title"><a href="services-details.php">Production <span>Design</span></a></h2>
                                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                                     </div>
                                 </div>
@@ -391,7 +387,7 @@
                                         <img src="assets/img/icon/inner_two_services_icon03.png" alt="">
                                     </div>
                                     <div class="services-content-five">
-                                        <h2 class="title"><a href="services-details.html">Branding <span>Design</span></a></h2>
+                                        <h2 class="title"><a href="services-details.php">Branding <span>Design</span></a></h2>
                                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                                     </div>
                                 </div>
@@ -402,7 +398,7 @@
                                         <img src="assets/img/icon/inner_two_services_icon04.png" alt="">
                                     </div>
                                     <div class="services-content-five">
-                                        <h2 class="title"><a href="services-details.html">Product <span>Design</span></a></h2>
+                                        <h2 class="title"><a href="services-details.php">Product <span>Design</span></a></h2>
                                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                                     </div>
                                 </div>
@@ -413,107 +409,8 @@
             </section>
             <!-- services-area-end -->
 
-            <!-- project-area -->
-            <section class="inner-project-area">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-xl-6">
-                            <div class="section-title text-center mb-65">
-                                <h2 class="title">Case Studies</h2>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="inner-project-item-wrap">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-4 col-md-6">
-                                <div class="inner-project-item">
-                                    <div class="inner-project-thumb">
-                                        <a href="project-details.html"><img src="assets/img/project/inner_project01.jpg" alt=""></a>
-                                    </div>
-                                    <div class="inner-project-content">
-                                        <h3 class="title"><a href="project-details.html">Motion Design</a></h3>
-                                        <p>Lorem Ipsum is simply</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6">
-                                <div class="inner-project-item">
-                                    <div class="inner-project-thumb">
-                                        <a href="project-details.html"><img src="assets/img/project/inner_project02.jpg" alt=""></a>
-                                    </div>
-                                    <div class="inner-project-content">
-                                        <h3 class="title"><a href="project-details.html">Motion Design</a></h3>
-                                        <p>Lorem Ipsum is simply</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6">
-                                <div class="inner-project-item">
-                                    <div class="inner-project-thumb">
-                                        <a href="project-details.html"><img src="assets/img/project/inner_project03.jpg" alt=""></a>
-                                    </div>
-                                    <div class="inner-project-content">
-                                        <h3 class="title"><a href="project-details.html">Motion Design</a></h3>
-                                        <p>Lorem Ipsum is simply</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-8 col-md-6">
-                                <div class="inner-project-item">
-                                    <div class="inner-project-thumb">
-                                        <a href="project-details.html"><img src="assets/img/project/inner_project04.jpg" alt=""></a>
-                                    </div>
-                                    <div class="inner-project-content">
-                                        <h3 class="title"><a href="project-details.html">Motion Design</a></h3>
-                                        <p>Lorem Ipsum is simply</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6">
-                                <div class="inner-project-item">
-                                    <div class="inner-project-thumb">
-                                        <a href="project-details.html"><img src="assets/img/project/inner_project05.jpg" alt=""></a>
-                                    </div>
-                                    <div class="inner-project-content">
-                                        <h3 class="title"><a href="project-details.html">Motion Design</a></h3>
-                                        <p>Lorem Ipsum is simply</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6">
-                                <div class="inner-project-item">
-                                    <div class="inner-project-thumb">
-                                        <a href="project-details.html"><img src="assets/img/project/inner_project06.jpg" alt=""></a>
-                                    </div>
-                                    <div class="inner-project-content">
-                                        <h3 class="title"><a href="project-details.html">Motion Design</a></h3>
-                                        <p>Lorem Ipsum is simply</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6">
-                                <div class="inner-project-item">
-                                    <div class="inner-project-thumb">
-                                        <a href="project-details.html"><img src="assets/img/project/inner_project07.jpg" alt=""></a>
-                                    </div>
-                                    <div class="inner-project-content">
-                                        <h3 class="title"><a href="project-details.html">Motion Design</a></h3>
-                                        <p>Lorem Ipsum is simply</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="more-btn text-center mt-45">
-                            <a href="about-me.html" class="btn">Load More <span></span></a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- project-area-end -->
-
             <!-- newsletter-area -->
-            <section class="newsletter-area pt-110 pb-120">
+            <section class="newsletter-area newsletter-area-three pb-120">
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-lg-6">
@@ -557,7 +454,7 @@
                             <div class="col-lg-3 col-sm-6">
                                 <div class="footer-widget">
                                     <div class="logo">
-                                        <a href="index.html"><img src="assets/img/logo/w_logo.png" alt=""></a>
+                                        <a href="index.php"><img src="assets/img/logo/w_logo.png" alt=""></a>
                                     </div>
                                     <div class="footer-social">
                                         <ul class="list-wrap">
@@ -578,10 +475,10 @@
                                     <h4 class="fw-title">Primary Pages</h4>
                                     <div class="fw-link">
                                         <ul class="list-wrap">
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="about-us.html">About</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                            <li><a href="services-details.html">Service</a></li>
+                                            <li><a href="index.php">Home</a></li>
+                                            <li><a href="about-us.php">About</a></li>
+                                            <li><a href="contact.php">Contact</a></li>
+                                            <li><a href="services-details.php">Service</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -591,10 +488,10 @@
                                     <h4 class="fw-title">Pages</h4>
                                     <div class="fw-link">
                                         <ul class="list-wrap">
-                                            <li><a href="about-us.html">About</a></li>
-                                            <li><a href="contact.html">Pricing</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                            <li><a href="contact.html">Request for Demo</a></li>
+                                            <li><a href="about-us.php">About</a></li>
+                                            <li><a href="contact.php">Pricing</a></li>
+                                            <li><a href="contact.php">Contact</a></li>
+                                            <li><a href="contact.php">Request for Demo</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -654,5 +551,5 @@
         <script src="assets/js/main.js"></script>
     </body>
 
-<!-- Mirrored from themedox.com/demo/xolio/services-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 Jan 2024 08:38:38 GMT -->
+<!-- Mirrored from themedox.com/demo/xolio/project-details.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 Jan 2024 08:38:36 GMT -->
 </html>

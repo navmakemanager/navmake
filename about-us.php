@@ -58,28 +58,28 @@
                             <div class="menu-wrap">
                                 <nav class="menu-nav">
                                     <div class="logo">
-                                        <a href="index.html"><img src="assets/img/logo/navmake_logo.png" alt="Logo"></a>
+                                        <a href="index.php"><img src="assets/img/logo/navmake_logo.png" alt="Logo"></a>
                                     </div>
                                     <div class="navbar-wrap main-menu d-none d-lg-flex">
                                         <ul class="navigation">
-                                            <li><a href="index.html">Home</a>
+                                            <li><a href="index.php">Home</a>
                                             </li>
-                                            <li class="active"><a href="about-us.html">About Us</a></li>
-                                            <li><a href="contact.html">Contact Us</a></li>
+                                            <li class="active"><a href="about-us.php">About Us</a></li>
+                                            <li><a href="contact.php">Contact Us</a></li>
                                             <!--<li class="menu-item-has-children"><a href="#">pages</a>-->
                                             <!--    <ul class="sub-menu">-->
-                                            <!--        <li><a href="about-me.html">About Me</a></li>-->
-                                            <!--        <li><a href="team.html">Team Page</a></li>-->
-                                            <!--        <li><a href="team-details.html">Team Details</a></li>-->
-                                            <!--        <li><a href="project-details.html">Portfolio Details</a></li>-->
-                                            <!--        <li><a href="services-details.html">Services Details</a></li>-->
-                                            <!--        <li><a href="contact.html">Contact Us</a></li>-->
+                                            <!--        <li><a href="about-me.php">About Me</a></li>-->
+                                            <!--        <li><a href="team.php">Team Page</a></li>-->
+                                            <!--        <li><a href="team-details.php">Team Details</a></li>-->
+                                            <!--        <li><a href="project-details.php">Portfolio Details</a></li>-->
+                                            <!--        <li><a href="services-details.php">Services Details</a></li>-->
+                                            <!--        <li><a href="contact.php">Contact Us</a></li>-->
                                             <!--    </ul>-->
                                             <!--</li>-->
                                             <!--<li class="menu-item-has-children"><a href="#">News</a>-->
                                             <!--    <ul class="sub-menu">-->
-                                            <!--        <li><a href="blog.html">Our Blog</a></li>-->
-                                            <!--        <li><a href="blog-details.html">Blog Details</a></li>-->
+                                            <!--        <li><a href="blog.php">Our Blog</a></li>-->
+                                            <!--        <li><a href="blog-details.php">Blog Details</a></li>-->
                                             <!--    </ul>-->
                                             <!--</li>-->
                                         </ul>
@@ -97,7 +97,7 @@
                                 <nav class="menu-box">
                                     <div class="close-btn"><i class="fas fa-times"></i></div>
                                     <div class="nav-logo">
-                                        <a href="index.html"><img src="assets/img/logo/logo.png" alt="Logo"></a>
+                                        <a href="index.php"><img src="assets/img/logo/logo.png" alt="Logo"></a>
                                     </div>
                                     <div class="menu-outer">
                                         <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
@@ -167,7 +167,7 @@
                                                     </li>
                                                 </ul>
                                                 <div class="lats-chat">
-                                                    <a href="contact.html">Let’s Chat</a>
+                                                    <a href="contact.php">Let’s Chat</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -175,7 +175,7 @@
                                         <!--    <div class="our-best-project">-->
                                         <!--        <div class="content">-->
                                         <!--            <h4 class="title">One of Our <span>Best Ongoing</span> Projects</h4>-->
-                                        <!--            <a href="project-details.html" class="btn">Details <span></span></a>-->
+                                        <!--            <a href="project-details.php" class="btn">Details <span></span></a>-->
                                         <!--        </div>-->
                                         <!--        <div class="thumb">-->
                                         <!--            <img src="assets/img/images/our_project_img.png" alt="">-->
@@ -194,11 +194,11 @@
                                             <h4 class="title">Need Help Choosing a Plan?</h4>
                                         </div>
                                         <p>We offer solutions for businesses of all sizes. For questions about our plans and products,,
-                                            contact our team of experts. <a href="contact.html">Get in touch</a></p>
+                                            contact our team of experts. <a href="contact.php">Get in touch</a></p>
                                     </div>
                                     <!--<div class="content-bottom">-->
-                                    <!--    <a href="contact.html">Support</a>-->
-                                    <!--    <a href="contact.html">Documentation</a>-->
+                                    <!--    <a href="contact.php">Support</a>-->
+                                    <!--    <a href="contact.php">Documentation</a>-->
                                     <!--</div>-->
                                 </div>
                             </div>
@@ -225,7 +225,7 @@
                                 <h2 class="title">About Us</h2>
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
-                                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                        <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                                         <li class="breadcrumb-item active" aria-current="page">About Us</li>
                                     </ol>
                                 </nav>
@@ -327,10 +327,10 @@
             <!--            <div class="col-lg-4">-->
             <!--                <div class="team-item">-->
             <!--                    <div class="team-thumb">-->
-            <!--                        <a href="team-details.html"><img src="assets/img/team/inner_team01.jpg" alt=""></a>-->
+            <!--                        <a href="team-details.php"><img src="assets/img/team/inner_team01.jpg" alt=""></a>-->
             <!--                    </div>-->
             <!--                    <div class="team-content">-->
-            <!--                        <h2 class="title"><a href="team-details.html">Alena Rosser</a></h2>-->
+            <!--                        <h2 class="title"><a href="team-details.php">Alena Rosser</a></h2>-->
             <!--                        <span>CEO Kawasaki Inc.</span>-->
             <!--                        <div class="team-social">-->
             <!--                            <ul class="list-wrap">-->
@@ -346,10 +346,10 @@
             <!--            <div class="col-lg-4">-->
             <!--                <div class="team-item">-->
             <!--                    <div class="team-thumb">-->
-            <!--                        <a href="team-details.html"><img src="assets/img/team/inner_team02.jpg" alt=""></a>-->
+            <!--                        <a href="team-details.php"><img src="assets/img/team/inner_team02.jpg" alt=""></a>-->
             <!--                    </div>-->
             <!--                    <div class="team-content">-->
-            <!--                        <h2 class="title"><a href="team-details.html">Tiana Dokidis</a></h2>-->
+            <!--                        <h2 class="title"><a href="team-details.php">Tiana Dokidis</a></h2>-->
             <!--                        <span>CEO Kawasaki Inc.</span>-->
             <!--                        <div class="team-social">-->
             <!--                            <ul class="list-wrap">-->
@@ -365,10 +365,10 @@
             <!--            <div class="col-lg-4">-->
             <!--                <div class="team-item">-->
             <!--                    <div class="team-thumb">-->
-            <!--                        <a href="team-details.html"><img src="assets/img/team/inner_team03.jpg" alt=""></a>-->
+            <!--                        <a href="team-details.php"><img src="assets/img/team/inner_team03.jpg" alt=""></a>-->
             <!--                    </div>-->
             <!--                    <div class="team-content">-->
-            <!--                        <h2 class="title"><a href="team-details.html">Ryan Vetrovs</a></h2>-->
+            <!--                        <h2 class="title"><a href="team-details.php">Ryan Vetrovs</a></h2>-->
             <!--                        <span>CEO Kawasaki Inc.</span>-->
             <!--                        <div class="team-social">-->
             <!--                            <ul class="list-wrap">-->
@@ -384,10 +384,10 @@
             <!--            <div class="col-lg-4">-->
             <!--                <div class="team-item">-->
             <!--                    <div class="team-thumb">-->
-            <!--                        <a href="team-details.html"><img src="assets/img/team/inner_team04.jpg" alt=""></a>-->
+            <!--                        <a href="team-details.php"><img src="assets/img/team/inner_team04.jpg" alt=""></a>-->
             <!--                    </div>-->
             <!--                    <div class="team-content">-->
-            <!--                        <h2 class="title"><a href="team-details.html">Emerson Saris</a></h2>-->
+            <!--                        <h2 class="title"><a href="team-details.php">Emerson Saris</a></h2>-->
             <!--                        <span>CEO Kawasaki Inc.</span>-->
             <!--                        <div class="team-social">-->
             <!--                            <ul class="list-wrap">-->
@@ -403,10 +403,10 @@
             <!--            <div class="col-lg-4">-->
             <!--                <div class="team-item">-->
             <!--                    <div class="team-thumb">-->
-            <!--                        <a href="team-details.html"><img src="assets/img/team/inner_team05.jpg" alt=""></a>-->
+            <!--                        <a href="team-details.php"><img src="assets/img/team/inner_team05.jpg" alt=""></a>-->
             <!--                    </div>-->
             <!--                    <div class="team-content">-->
-            <!--                        <h2 class="title"><a href="team-details.html">Lindsey Schleifer</a></h2>-->
+            <!--                        <h2 class="title"><a href="team-details.php">Lindsey Schleifer</a></h2>-->
             <!--                        <span>CEO Kawasaki Inc.</span>-->
             <!--                        <div class="team-social">-->
             <!--                            <ul class="list-wrap">-->
@@ -445,7 +445,7 @@
             <!--                            <img src="assets/img/icon/inner_services_icon01.png" alt="">-->
             <!--                        </div>-->
             <!--                        <div class="services-content-four">-->
-            <!--                            <h2 class="title"><a href="services-details.html">Advertising</a></h2>-->
+            <!--                            <h2 class="title"><a href="services-details.php">Advertising</a></h2>-->
             <!--                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>-->
             <!--                        </div>-->
             <!--                    </div>-->
@@ -456,7 +456,7 @@
             <!--                            <img src="assets/img/icon/inner_services_icon02.png" alt="">-->
             <!--                        </div>-->
             <!--                        <div class="services-content-four">-->
-            <!--                            <h2 class="title"><a href="services-details.html">Development</a></h2>-->
+            <!--                            <h2 class="title"><a href="services-details.php">Development</a></h2>-->
             <!--                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>-->
             <!--                        </div>-->
             <!--                    </div>-->
@@ -467,7 +467,7 @@
             <!--                            <img src="assets/img/icon/inner_services_icon03.png" alt="">-->
             <!--                        </div>-->
             <!--                        <div class="services-content-four">-->
-            <!--                            <h2 class="title"><a href="services-details.html">Branding</a></h2>-->
+            <!--                            <h2 class="title"><a href="services-details.php">Branding</a></h2>-->
             <!--                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>-->
             <!--                        </div>-->
             <!--                    </div>-->
@@ -478,7 +478,7 @@
             <!--                            <img src="assets/img/icon/inner_services_icon04.png" alt="">-->
             <!--                        </div>-->
             <!--                        <div class="services-content-four">-->
-            <!--                            <h2 class="title"><a href="services-details.html">Product Design</a></h2>-->
+            <!--                            <h2 class="title"><a href="services-details.php">Product Design</a></h2>-->
             <!--                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>-->
             <!--                        </div>-->
             <!--                    </div>-->
@@ -489,7 +489,7 @@
             <!--                            <img src="assets/img/icon/inner_services_icon05.png" alt="">-->
             <!--                        </div>-->
             <!--                        <div class="services-content-four">-->
-            <!--                            <h2 class="title"><a href="services-details.html">Software</a></h2>-->
+            <!--                            <h2 class="title"><a href="services-details.php">Software</a></h2>-->
             <!--                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>-->
             <!--                        </div>-->
             <!--                    </div>-->
@@ -500,7 +500,7 @@
             <!--                            <img src="assets/img/icon/inner_services_icon06.png" alt="">-->
             <!--                        </div>-->
             <!--                        <div class="services-content-four">-->
-            <!--                            <h2 class="title"><a href="services-details.html">Marketing</a></h2>-->
+            <!--                            <h2 class="title"><a href="services-details.php">Marketing</a></h2>-->
             <!--                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>-->
             <!--                        </div>-->
             <!--                    </div>-->
@@ -511,7 +511,7 @@
             <!--                            <img src="assets/img/icon/inner_services_icon07.png" alt="">-->
             <!--                        </div>-->
             <!--                        <div class="services-content-four">-->
-            <!--                            <h2 class="title"><a href="services-details.html">Cinematography</a></h2>-->
+            <!--                            <h2 class="title"><a href="services-details.php">Cinematography</a></h2>-->
             <!--                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>-->
             <!--                        </div>-->
             <!--                    </div>-->
@@ -522,7 +522,7 @@
             <!--                            <img src="assets/img/icon/inner_services_icon08.png" alt="">-->
             <!--                        </div>-->
             <!--                        <div class="services-content-four">-->
-            <!--                            <h2 class="title"><a href="services-details.html">Strategy Services</a></h2>-->
+            <!--                            <h2 class="title"><a href="services-details.php">Strategy Services</a></h2>-->
             <!--                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>-->
             <!--                        </div>-->
             <!--                    </div>-->
@@ -867,7 +867,7 @@
                             <div class="col-lg-3 col-sm-6">
                                 <div class="footer-widget">
                                     <div class="logo">
-                                        <a href="index.html"><img src="assets/img/logo/w_logo.png" alt=""></a>
+                                        <a href="index.php"><img src="assets/img/logo/w_logo.png" alt=""></a>
                                     </div>
                                     <div class="footer-social">
                                         <ul class="list-wrap">
@@ -889,10 +889,10 @@
                                     <h4 class="fw-title">Primary Pages</h4>
                                     <div class="fw-link">
                                         <ul class="list-wrap">
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="about-us.html">About</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                            <!--<li><a href="services-details.html">Service</a></li>-->
+                                            <li><a href="index.php">Home</a></li>
+                                            <li><a href="about-us.php">About</a></li>
+                                            <li><a href="contact.php">Contact</a></li>
+                                            <!--<li><a href="services-details.php">Service</a></li>-->
                                         </ul>
                                     </div>
                                 </div>
@@ -902,10 +902,10 @@
                             <!--        <h4 class="fw-title">Pages</h4>-->
                             <!--        <div class="fw-link">-->
                             <!--            <ul class="list-wrap">-->
-                            <!--                <li><a href="about-us.html">About</a></li>-->
-                            <!--                <li><a href="contact.html">Pricing</a></li>-->
-                            <!--                <li><a href="contact.html">Contact</a></li>-->
-                            <!--                <li><a href="contact.html">Request for Demo</a></li>-->
+                            <!--                <li><a href="about-us.php">About</a></li>-->
+                            <!--                <li><a href="contact.php">Pricing</a></li>-->
+                            <!--                <li><a href="contact.php">Contact</a></li>-->
+                            <!--                <li><a href="contact.php">Request for Demo</a></li>-->
                             <!--            </ul>-->
                             <!--        </div>-->
                             <!--    </div>-->
@@ -965,5 +965,5 @@
         <script src="assets/js/main.js"></script>
     </body>
 
-<!-- Mirrored from themedox.com/demo/xolio/about-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 Jan 2024 08:38:21 GMT -->
+<!-- Mirrored from themedox.com/demo/xolio/about-us.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 Jan 2024 08:38:21 GMT -->
 </html>
