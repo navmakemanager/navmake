@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en">
     
-<!-- Mirrored from themedox.com/demo/xolio/blog.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 Jan 2024 08:38:40 GMT -->
+<!-- Mirrored from themedox.com/demo/xolio/team.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 Jan 2024 08:38:30 GMT -->
 <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -57,32 +57,32 @@
                             <div class="menu-wrap">
                                 <nav class="menu-nav">
                                     <div class="logo">
-                                        <a href="index.html"><img src="assets/img/logo/logo.png" alt="Logo"></a>
+                                        <a href="index.php"><img src="assets/img/logo/logo.png" alt="Logo"></a>
                                     </div>
                                     <div class="navbar-wrap main-menu d-none d-lg-flex">
                                         <ul class="navigation">
                                             <li class="menu-item-has-children"><a href="#">Home</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="index.html">Creative Agency</a></li>
-                                                    <li><a href="index-2.html">Personal Portfolio</a></li>
-                                                    <li><a href="index-3.html">Digital Agency</a></li>
+                                                    <li><a href="index.php">Creative Agency</a></li>
+                                                    <li><a href="index-2.php">Personal Portfolio</a></li>
+                                                    <li><a href="index-3.php">Digital Agency</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="about-us.html">About Us</a></li>
-                                            <li class="menu-item-has-children"><a href="#">pages</a>
+                                            <li><a href="about-us.php">About Us</a></li>
+                                            <li class="active menu-item-has-children"><a href="#">pages</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="about-me.html">About Me</a></li>
-                                                    <li><a href="team.html">Team Page</a></li>
-                                                    <li><a href="team-details.html">Team Details</a></li>
-                                                    <li><a href="project-details.html">Portfolio Details</a></li>
-                                                    <li><a href="services-details.html">Services Details</a></li>
-                                                    <li><a href="contact.html">Contact Us</a></li>
+                                                    <li><a href="about-me.php">About Me</a></li>
+                                                    <li class="active"><a href="team.php">Team Page</a></li>
+                                                    <li><a href="team-details.php">Team Details</a></li>
+                                                    <li><a href="project-details.php">Portfolio Details</a></li>
+                                                    <li><a href="services-details.php">Services Details</a></li>
+                                                    <li><a href="contact.php">Contact Us</a></li>
                                                 </ul>
                                             </li>
-                                            <li class="active menu-item-has-children"><a href="#">News</a>
+                                            <li class="menu-item-has-children"><a href="#">News</a>
                                                 <ul class="sub-menu">
-                                                    <li class="active"><a href="blog.html">Our Blog</a></li>
-                                                    <li><a href="blog-details.html">Blog Details</a></li>
+                                                    <li><a href="blog.php">Our Blog</a></li>
+                                                    <li><a href="blog-details.php">Blog Details</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -100,7 +100,7 @@
                                 <nav class="menu-box">
                                     <div class="close-btn"><i class="fas fa-times"></i></div>
                                     <div class="nav-logo">
-                                        <a href="index.html"><img src="assets/img/logo/logo.png" alt="Logo"></a>
+                                        <a href="index.php"><img src="assets/img/logo/logo.png" alt="Logo"></a>
                                     </div>
                                     <div class="menu-outer">
                                         <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
@@ -169,7 +169,7 @@
                                                     </li>
                                                 </ul>
                                                 <div class="lats-chat">
-                                                    <a href="contact.html">Lat’s Chat</a>
+                                                    <a href="contact.php">Lat’s Chat</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -177,7 +177,7 @@
                                             <div class="our-best-project">
                                                 <div class="content">
                                                     <h4 class="title">One of Our <span>Best Ongoing</span> Projects</h4>
-                                                    <a href="project-details.html" class="btn">Details <span></span></a>
+                                                    <a href="project-details.php" class="btn">Details <span></span></a>
                                                 </div>
                                                 <div class="thumb">
                                                     <img src="assets/img/images/our_project_img.png" alt="">
@@ -196,11 +196,11 @@
                                             <h4 class="title">Need Help Choosing a Plan?</h4>
                                         </div>
                                         <p>We offer solutions for businesses of all sizes. For questions about our plans and products,,
-                                            contact our team of experts. <a href="contact.html">Get in touch</a></p>
+                                            contact our team of experts. <a href="contact.php">Get in touch</a></p>
                                     </div>
                                     <div class="content-bottom">
-                                        <a href="contact.html">Support</a>
-                                        <a href="contact.html">Documentation</a>
+                                        <a href="contact.php">Support</a>
+                                        <a href="contact.php">Documentation</a>
                                     </div>
                                 </div>
                             </div>
@@ -219,253 +219,164 @@
         <main>
 
             <!-- breadcrumb-area -->
-            <section class="breadcrumb-area breadcrumb-area-three parallax pt-175 pb-120">
+            <section class="breadcrumb-area breadcrumb-area-two pt-175">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
                             <div class="breadcrumb-content">
-                                <h2 class="title">Blog</h2>
+                                <h2 class="title">Our Team Members</h2>
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
-                                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                        <li class="breadcrumb-item active" aria-current="page">Blog</li>
+                                        <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">Team</li>
                                     </ol>
                                 </nav>
                             </div>
                         </div>
                     </div>
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="breadcrumb-search">
-                                <form action="#">
-                                    <label for="serch"><i class="far fa-search"></i></label>
-                                    <input type="text" id="serch" placeholder="Search for...">
-                                    <button type="submit" class="btn">Search <span></span></button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="breadcrumb-shape-wrap-two">
-                    <div class="parallax-shape">
-                        <img src="assets/img/images/breadcrumb_shape03.png" class="layer" data-depth="0.5" alt="img">
-                    </div>
                 </div>
             </section>
             <!-- breadcrumb-area-end -->
 
-            <!-- blog-area -->
-            <section class="inner-blog-area pb-120">
+            <!-- community-area -->
+            <div class="community-area pt-30">
                 <div class="container">
                     <div class="row justify-content-center">
-                        <div class="col-70">
-                            <div class="inner-blog-item">
-                                <div class="inner-blog-thumb">
-                                    <a href="blog-details.html"><img src="assets/img/blog/inner_blog_img01.jpg" alt=""></a>
-                                </div>
-                                <div class="inner-blog-content">
-                                    <div class="blog-meta-two">
-                                        <ul class="list-wrap">
-                                            <li class="tag"><a href="blog.html">Sector</a></li>
-                                            <li><i class="fal fa-clock"></i>5 Min</li>
-                                            <li><i class="fal fa-calendar"></i>March 17, 2022</li>
-                                            <li>By <a href="blog.html">Victor Pacheco</a></li>
-                                        </ul>
-                                    </div>
-                                    <h2 class="title"><a href="blog-details.html">How to Post a Classified Ad Online or in Newspapers</a></h2>
-                                    <p>Lorem ipsum dolor sit amet, sed nulla ante amet, elementum tincidunt arcu sed laoreet, natoque ac eget imperdiet. Ac scelerisque nibh dolores consectetuer, nulla aptent est pede. Scelerisque euismod varius mi, congue eget sed vestibulum, ornare cras sed nec.</p>
-                                    <a href="blog-details.html" class="rade-more-btn">Read More</a>
-                                </div>
+                        <div class="col-xl-8 col-lg-10">
+                            <div class="community-img">
+                                <img src="assets/img/images/community_img.png" alt="">
                             </div>
-                            <div class="inner-blog-item">
-                                <div class="inner-blog-thumb">
-                                    <a href="blog-details.html"><img src="assets/img/blog/inner_blog_img02.jpg" alt=""></a>
-                                </div>
-                                <div class="inner-blog-content">
-                                    <div class="blog-meta-two">
-                                        <ul class="list-wrap">
-                                            <li class="tag"><a href="blog.html">Sector</a></li>
-                                            <li><i class="fal fa-clock"></i>5 Min</li>
-                                            <li><i class="fal fa-calendar"></i>March 17, 2022</li>
-                                            <li>By <a href="blog.html">Victor Pacheco</a></li>
-                                        </ul>
-                                    </div>
-                                    <h2 class="title"><a href="blog-details.html">How to Post a Classified Ad Online or in Newspapers</a></h2>
-                                    <p>Lorem ipsum dolor sit amet, sed nulla ante amet, elementum tincidunt arcu sed laoreet, natoque ac eget imperdiet. Ac scelerisque nibh dolores consectetuer, nulla aptent est pede. Scelerisque euismod varius mi, congue eget sed vestibulum, ornare cras sed nec.</p>
-                                    <a href="blog-details.html" class="rade-more-btn">Read More</a>
-                                </div>
-                            </div>
-                            <div class="inner-blog-item">
-                                <div class="inner-blog-thumb">
-                                    <a href="blog-details.html"><img src="assets/img/blog/inner_blog_img03.jpg" alt=""></a>
-                                </div>
-                                <div class="inner-blog-content">
-                                    <div class="blog-meta-two">
-                                        <ul class="list-wrap">
-                                            <li class="tag"><a href="blog.html">Sector</a></li>
-                                            <li><i class="fal fa-clock"></i>5 Min</li>
-                                            <li><i class="fal fa-calendar"></i>March 17, 2022</li>
-                                            <li>By <a href="blog.html">Victor Pacheco</a></li>
-                                        </ul>
-                                    </div>
-                                    <h2 class="title"><a href="blog-details.html">How to Post a Classified Ad Online or in Newspapers</a></h2>
-                                    <p>Lorem ipsum dolor sit amet, sed nulla ante amet, elementum tincidunt arcu sed laoreet, natoque ac eget imperdiet. Ac scelerisque nibh dolores consectetuer, nulla aptent est pede. Scelerisque euismod varius mi, congue eget sed vestibulum, ornare cras sed nec.</p>
-                                    <a href="blog-details.html" class="rade-more-btn">Read More</a>
-                                </div>
-                            </div>
-                            <div class="pagination-wrap">
-                                <nav aria-label="Page navigation example">
-                                    <ul class="pagination list-wrap">
-                                        <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                        <li class="page-item active"><a class="page-link" href="#">2</a></li>
-                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                        <li class="page-item"><a class="page-link" href="#">4</a></li>
-                                    </ul>
-                                </nav>
+                            <div class="community-content">
+                                <p>Lorem ipsum dolor sit amet, sed nulla ante amet, elementum tincidunt arcu sed laoreet, natoque ac eget imperdiet. Ac scelerisque nibh dolores consectetuer, nulla aptent est pede. Scelerisque euismod varius mi, congue eget sed vestibulum, ornare cras sed nec.</p>
                             </div>
                         </div>
-                        <div class="col-30">
-                            <aside class="blog-sidebar">
-                                <div class="widget">
-                                    <div class="rc-post-wrap">
-                                        <div class="rc-post-item">
-                                            <div class="thumb">
-                                                <a href="blog-dtails.html"><img src="assets/img/blog/rc_post_img01.jpg" alt=""></a>
-                                            </div>
-                                            <div class="content">
-                                                <div class="blog-meta-two">
-                                                    <ul class="list-wrap">
-                                                        <li class="tag"><a href="blog.html">Sector</a></li>
-                                                        <li><i class="fal fa-clock"></i>5 Min</li>
-                                                    </ul>
-                                                </div>
-                                                <h4 class="title"><a href="blog-details.html">Skello launches electronic signature</a></h4>
-                                            </div>
-                                        </div>
-                                        <div class="rc-post-item">
-                                            <div class="thumb">
-                                                <a href="blog-dtails.html"><img src="assets/img/blog/rc_post_img02.jpg" alt=""></a>
-                                            </div>
-                                            <div class="content">
-                                                <div class="blog-meta-two">
-                                                    <ul class="list-wrap">
-                                                        <li class="tag"><a href="blog.html">Our Team</a></li>
-                                                        <li><i class="fal fa-clock"></i>5 Min</li>
-                                                    </ul>
-                                                </div>
-                                                <h4 class="title"><a href="blog-details.html">Skello launches electronic signature</a></h4>
-                                            </div>
-                                        </div>
-                                        <div class="rc-post-item">
-                                            <div class="thumb">
-                                                <a href="blog-dtails.html"><img src="assets/img/blog/rc_post_img03.jpg" alt=""></a>
-                                            </div>
-                                            <div class="content">
-                                                <div class="blog-meta-two">
-                                                    <ul class="list-wrap">
-                                                        <li class="tag"><a href="blog.html">Solution</a></li>
-                                                        <li><i class="fal fa-clock"></i>5 Min</li>
-                                                    </ul>
-                                                </div>
-                                                <h4 class="title"><a href="blog-details.html">Skello launches electronic signature</a></h4>
-                                            </div>
-                                        </div>
-                                    </div>
+                    </div>
+                </div>
+            </div>
+            <!-- community-area-end -->
+
+            <!-- team-area -->
+            <section class="team-area-two pt-110 pb-100">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4 col-md-6 col-sm-10">
+                            <div class="team-item">
+                                <div class="team-thumb">
+                                    <a href="team-details.php"><img src="assets/img/team/inner_team01.jpg" alt=""></a>
                                 </div>
-                                <div class="widget">
-                                    <h2 class="widget-title">Categories</h2>
-                                    <div class="blog-cat-list">
+                                <div class="team-content">
+                                    <h2 class="title"><a href="team-details.php">Alena Rosser</a></h2>
+                                    <span>CEO Kawasaki Inc.</span>
+                                    <div class="team-social">
                                         <ul class="list-wrap">
-                                            <li><a href="#">Travel <span>(3)</span></a></li>
-                                            <li><a href="#">Sport<span>(7)</span></a></li>
-                                            <li><a href="#">Education<span>(12)</span></a></li>
-                                            <li><a href="#">Business<span>(5)</span></a></li>
+                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-behance"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="widget">
-                                    <h2 class="widget-title">Popular posts</h2>
-                                    <div class="popular-post-list">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-10">
+                            <div class="team-item">
+                                <div class="team-thumb">
+                                    <a href="team-details.php"><img src="assets/img/team/inner_team02.jpg" alt=""></a>
+                                </div>
+                                <div class="team-content">
+                                    <h2 class="title"><a href="team-details.php">Tiana Dokidis</a></h2>
+                                    <span>CEO Kawasaki Inc.</span>
+                                    <div class="team-social">
                                         <ul class="list-wrap">
-                                            <li>
-                                                <div class="popular-post-item big-post mb-40">
-                                                    <div class="thumb">
-                                                        <a href="blog-details.html"><img src="assets/img/blog/pu_post_img01.jpg" alt=""></a>
-                                                    </div>
-                                                    <div class="content">
-                                                        <h5 class="title"><a href="blog-details.html">Five Quick Jaw Droppping Tips <br> to Sell Your Vehicle Online</a></h5>
-                                                        <span>March 17, 2023</span>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="popular-post-item mb-40">
-                                                    <div class="thumb">
-                                                        <a href="blog-details.html"><img src="assets/img/blog/pu_post_img02.jpg" alt=""></a>
-                                                    </div>
-                                                    <div class="content">
-                                                        <h5 class="title"><a href="blog-details.html">Purchase advertising...</a></h5>
-                                                        <span>March 17, 2023</span>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="popular-post-item mb-40">
-                                                    <div class="thumb">
-                                                        <a href="blog-details.html"><img src="assets/img/blog/pu_post_img03.jpg" alt=""></a>
-                                                    </div>
-                                                    <div class="content">
-                                                        <h5 class="title"><a href="blog-details.html">Purchase advertising...</a></h5>
-                                                        <span>March 17, 2023</span>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="popular-post-item">
-                                                    <div class="thumb">
-                                                        <a href="blog-details.html"><img src="assets/img/blog/pu_post_img04.jpg" alt=""></a>
-                                                    </div>
-                                                    <div class="content">
-                                                        <h5 class="title"><a href="blog-details.html">Purchase advertising...</a></h5>
-                                                        <span>March 17, 2023</span>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="popular-post-item">
-                                                    <div class="thumb">
-                                                        <a href="blog-details.html"><img src="assets/img/blog/pu_post_img05.jpg" alt=""></a>
-                                                    </div>
-                                                    <div class="content">
-                                                        <h5 class="title"><a href="blog-details.html">Purchase advertising...</a></h5>
-                                                        <span>March 17, 2023</span>
-                                                    </div>
-                                                </div>
-                                            </li>
+                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-behance"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="widget">
-                                    <h2 class="widget-title">Tags</h2>
-                                    <div class="tag-list">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-10">
+                            <div class="team-item">
+                                <div class="team-thumb">
+                                    <a href="team-details.php"><img src="assets/img/team/inner_team03.jpg" alt=""></a>
+                                </div>
+                                <div class="team-content">
+                                    <h2 class="title"><a href="team-details.php">Ryan Vetrovs</a></h2>
+                                    <span>CEO Kawasaki Inc.</span>
+                                    <div class="team-social">
                                         <ul class="list-wrap">
-                                            <li><a href="#">Design</a></li>
-                                            <li><a href="#">Fashion</a></li>
-                                            <li><a href="#">Looks</a></li>
-                                            <li><a href="#">Men</a></li>
-                                            <li><a href="#">Music</a></li>
-                                            <li><a href="#">Style</a></li>
-                                            <li><a href="#">Women</a></li>
-                                            <li><a href="#">Fashion</a></li>
+                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-behance"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
-                            </aside>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-10">
+                            <div class="team-item">
+                                <div class="team-thumb">
+                                    <a href="team-details.php"><img src="assets/img/team/inner_team04.jpg" alt=""></a>
+                                </div>
+                                <div class="team-content">
+                                    <h2 class="title"><a href="team-details.php">Emerson Saris</a></h2>
+                                    <span>CEO Kawasaki Inc.</span>
+                                    <div class="team-social">
+                                        <ul class="list-wrap">
+                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-10">
+                            <div class="team-item">
+                                <div class="team-thumb">
+                                    <a href="team-details.php"><img src="assets/img/team/inner_team05.jpg" alt=""></a>
+                                </div>
+                                <div class="team-content">
+                                    <h2 class="title"><a href="team-details.php">Lindsey Schleifer</a></h2>
+                                    <span>CEO Kawasaki Inc.</span>
+                                    <div class="team-social">
+                                        <ul class="list-wrap">
+                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-10">
+                            <div class="team-item">
+                                <div class="team-thumb">
+                                    <a href="team-details.php"><img src="assets/img/team/inner_team06.jpg" alt=""></a>
+                                </div>
+                                <div class="team-content">
+                                    <h2 class="title"><a href="team-details.php">Dulce Dokidis</a></h2>
+                                    <span>CEO Kawasaki Inc.</span>
+                                    <div class="team-social">
+                                        <ul class="list-wrap">
+                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <!-- blog-area-end -->
+            <!-- team-area-end -->
 
             <!-- newsletter-area -->
             <section class="newsletter-area-two">
@@ -473,8 +384,7 @@
                     <div class="newsletter-wrap">
                         <div class="row justify-content-center">
                             <div class="col-xl-7 col-lg-9">
-                                <div
-                                    class="section-title title-style-two white-title text-center mb-30">
+                                <div class="section-title title-style-two white-title text-center mb-30">
                                     <span class="sub-title">Get update</span>
                                     <h2 class="title">Get latest updates and deals</h2>
                                 </div>
@@ -501,6 +411,53 @@
             </section>
             <!-- newsletter-area-end -->
 
+            <!-- brand-area -->
+            <section class="brand-area-two pt-110">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6">
+                            <div class="section-title text-center mb-80">
+                                <span class="sub-title">Our Partners</span>
+                                <h2 class="title">People Who Trust Us</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row brand-active">
+                        <div class="col-12">
+                            <div class="brand-item-two">
+                                <img src="assets/img/brand/h3_brand_img01.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="brand-item-two">
+                                <img src="assets/img/brand/h3_brand_img02.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="brand-item-two">
+                                <img src="assets/img/brand/h3_brand_img03.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="brand-item-two">
+                                <img src="assets/img/brand/h3_brand_img04.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="brand-item-two">
+                                <img src="assets/img/brand/h3_brand_img05.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="brand-item-two">
+                                <img src="assets/img/brand/h3_brand_img06.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- brand-area-end -->
+
         </main>
         <!-- main-area-end -->
 
@@ -513,10 +470,9 @@
                             <div class="col-xl-6 col-lg-8">
                                 <div class="footer-content-two text-center">
                                     <div class="logo">
-                                        <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                                        <a href="index.php"><img src="assets/img/logo/logo.png" alt=""></a>
                                     </div>
-                                    <p>Agency is a full-service agency, busy designing and building beautiful digital products,
-                                        brands, and experiences.</p>
+                                    <p>Agency is a full-service agency, busy designing and building beautiful digital products, brands, and experiences.</p>
                                 </div>
                             </div>
                         </div>
@@ -566,5 +522,5 @@
         <script src="assets/js/main.js"></script>
     </body>
 
-<!-- Mirrored from themedox.com/demo/xolio/blog.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 Jan 2024 08:38:45 GMT -->
+<!-- Mirrored from themedox.com/demo/xolio/team.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 Jan 2024 08:38:30 GMT -->
 </html>

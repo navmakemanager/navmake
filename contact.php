@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en">
     
-<!-- Mirrored from themedox.com/demo/xolio/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 Jan 2024 08:38:38 GMT -->
+<!-- Mirrored from themedox.com/demo/xolio/contact.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 Jan 2024 08:38:38 GMT -->
 <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -57,28 +57,39 @@
                             <div class="menu-wrap">
                                 <nav class="menu-nav">
                                     <div class="logo">
-                                        <a href="index.html"><img src="assets/img/logo/navmake_logo.png" alt="Logo"></a>
+                                        <a href="index.php"><img src="assets/img/logo/navmake_logo.png" alt="Logo"></a>
                                     </div>
                                     <div class="navbar-wrap main-menu d-none d-lg-flex">
                                         <ul class="navigation">
-                                            <li><a href="index.html">Home</a>
+                                            <li><a href="index.php">Home</a>
                                             </li>
-                                            <li><a href="about-us.html">About Us</a></li>
-                                            <li class="active"><a href="contact.html">Contact Us</a></li>
+                                            <li><a href="about-us.php">About Us</a></li>
+                                               <li class="menu-item-has-children"><a href="">Services</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="web-development.php">Web Development</a></li>
+                                                    <li><a href="app-development.php">App Development</a></li>
+                                                    <li><a href="digital-marketing.php">Digital Marketing</a></li>
+                                                    <li><a href="branding-design.php">Branding Design</a></li>
+                                                    <!--<li><a href="services-details.php">Services Details</a></li>-->
+                                                    <!--<li><a href="contact.php">Contact Us</a></li>-->
+                                                </ul>
+                                            </li>
+                                            <!--<li><a href="contact.php">Contact Us</a></li>-->
+                                            <li class="active"><a href="contact.php">Contact Us</a></li>
                                             <!--<li class="menu-item-has-children"><a href="#">pages</a>-->
                                             <!--    <ul class="sub-menu">-->
-                                            <!--        <li><a href="about-me.html">About Me</a></li>-->
-                                            <!--        <li><a href="team.html">Team Page</a></li>-->
-                                            <!--        <li><a href="team-details.html">Team Details</a></li>-->
-                                            <!--        <li><a href="project-details.html">Portfolio Details</a></li>-->
-                                            <!--        <li><a href="services-details.html">Services Details</a></li>-->
-                                            <!--        <li><a href="contact.html">Contact Us</a></li>-->
+                                            <!--        <li><a href="about-me.php">About Me</a></li>-->
+                                            <!--        <li><a href="team.php">Team Page</a></li>-->
+                                            <!--        <li><a href="team-details.php">Team Details</a></li>-->
+                                            <!--        <li><a href="project-details.php">Portfolio Details</a></li>-->
+                                            <!--        <li><a href="services-details.php">Services Details</a></li>-->
+                                            <!--        <li><a href="contact.php">Contact Us</a></li>-->
                                             <!--    </ul>-->
                                             <!--</li>-->
                                             <!--<li class="menu-item-has-children"><a href="#">News</a>-->
                                             <!--    <ul class="sub-menu">-->
-                                            <!--        <li><a href="blog.html">Our Blog</a></li>-->
-                                            <!--        <li><a href="blog-details.html">Blog Details</a></li>-->
+                                            <!--        <li><a href="blog.php">Our Blog</a></li>-->
+                                            <!--        <li><a href="blog-details.php">Blog Details</a></li>-->
                                             <!--    </ul>-->
                                             <!--</li>-->
                                         </ul>
@@ -96,18 +107,18 @@
                                 <nav class="menu-box">
                                     <div class="close-btn"><i class="fas fa-times"></i></div>
                                     <div class="nav-logo">
-                                        <a href="index.html"><img src="assets/img/logo/logo.png" alt="Logo"></a>
+                                        <a href="index.php"><img src="assets/img/logo/logo.png" alt="Logo"></a>
                                     </div>
                                     <div class="menu-outer">
                                         <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
                                     </div>
                                     <div class="social-links">
                                         <ul class="clearfix list-wrap">
-                                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        
-                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                              <li><a href="https://www.instagram.com/navmake/"><i class="fab fa-instagram"></i></a></li>
+                                            <li><a href="https://www.facebook.com/profile.php?id=61555995312554"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li ><a href="https://twitter.com/navmake_in"><i class="fab fa-twitter"></i></a></li>
+                                         
+                                            <!--<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>-->
                                             <!--<li><a href="#"><i class="fab fa-youtube"></i></a></li>-->
                                         </ul>
                                     </div>
@@ -166,7 +177,7 @@
                                                     </li>
                                                 </ul>
                                                 <div class="lats-chat">
-                                                    <a href="contact.html">Let’s Chat</a>
+                                                    <a href="contact.php">Let’s Chat</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -174,7 +185,7 @@
                                         <!--    <div class="our-best-project">-->
                                         <!--        <div class="content">-->
                                         <!--            <h4 class="title">One of Our <span>Best Ongoing</span> Projects</h4>-->
-                                        <!--            <a href="project-details.html" class="btn">Details <span></span></a>-->
+                                        <!--            <a href="project-details.php" class="btn">Details <span></span></a>-->
                                         <!--        </div>-->
                                         <!--        <div class="thumb">-->
                                         <!--            <img src="assets/img/images/our_project_img.png" alt="">-->
@@ -193,11 +204,11 @@
                                             <h4 class="title">Need Help Choosing a Plan?</h4>
                                         </div>
                                         <p>We offer solutions for businesses of all sizes. For questions about our plans and products,,
-                                            contact our team of experts. <a href="contact.html">Get in touch</a></p>
+                                            contact our team of experts. <a href="contact.php">Get in touch</a></p>
                                     </div>
                                     <!--<div class="content-bottom">-->
-                                    <!--    <a href="contact.html">Support</a>-->
-                                    <!--    <a href="contact.html">Documentation</a>-->
+                                    <!--    <a href="contact.php">Support</a>-->
+                                    <!--    <a href="contact.php">Documentation</a>-->
                                     <!--</div>-->
                                 </div>
                             </div>
@@ -224,7 +235,7 @@
                                 <h2 class="title">Contact Us</h2>
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
-                                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                        <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                                         <li class="breadcrumb-item active" aria-current="page">Contact</li>
                                     </ol>
                                 </nav>
@@ -335,7 +346,7 @@
                             <div class="col-xl-6 col-lg-8">
                                 <div class="footer-content-two text-center">
                                     <div class="logo">
-                                        <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                                        <a href="index.php"><img src="assets/img/logo/logo.png" alt=""></a>
                                     </div>
                                     <p>Innovate. Create. Elevate.</p>
                                 </div>
@@ -353,10 +364,10 @@
                                 <div class="footer-social-two">
                                     <ul class="list-wrap">
                                         <li class="title">Follow us</li>
-                                        <li><a href="#"><img src="assets/img/icon/footer_icon01.png" alt=""></a></li>
-                                        <li><a href="#"><img src="assets/img/icon/footer_icon02.png" alt=""></a></li>
+                                        <li><a href="https://www.facebook.com/profile.php?id=61555995312554"><img src="assets/img/icon/footer_icon01.png" alt=""></a></li>
+                                        <li><a href="https://www.instagram.com/navmake/"><img src="assets/img/icon/footer_icon02.png" alt=""></a></li>
                                         <!--<li><a href="#"><img src="assets/img/icon/footer_icon03.png" alt=""></a></li>-->
-                                        <li><a href="#"><img src="assets/img/icon/footer_icon04.png" alt=""></a></li>
+                                        <li><a href="https://twitter.com/navmake_in"><img src="assets/img/icon/footer_icon04.png" alt=""></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -387,5 +398,5 @@
         <script src="assets/js/main.js"></script>
     </body>
 
-<!-- Mirrored from themedox.com/demo/xolio/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 Jan 2024 08:38:40 GMT -->
+<!-- Mirrored from themedox.com/demo/xolio/contact.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 Jan 2024 08:38:40 GMT -->
 </html>

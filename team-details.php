@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en">
     
-<!-- Mirrored from themedox.com/demo/xolio/team-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 Jan 2024 08:38:31 GMT -->
+<!-- Mirrored from themedox.com/demo/xolio/team-details.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 Jan 2024 08:38:31 GMT -->
 <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -57,32 +57,32 @@
                             <div class="menu-wrap">
                                 <nav class="menu-nav">
                                     <div class="logo">
-                                        <a href="index.html"><img src="assets/img/logo/logo.png" alt="Logo"></a>
+                                        <a href="index.php"><img src="assets/img/logo/logo.png" alt="Logo"></a>
                                     </div>
                                     <div class="navbar-wrap main-menu d-none d-lg-flex">
                                         <ul class="navigation">
                                             <li class="menu-item-has-children"><a href="#">Home</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="index.html">Creative Agency</a></li>
-                                                    <li><a href="index-2.html">Personal Portfolio</a></li>
-                                                    <li><a href="index-3.html">Digital Agency</a></li>
+                                                    <li><a href="index.php">Creative Agency</a></li>
+                                                    <li><a href="index-2.php">Personal Portfolio</a></li>
+                                                    <li><a href="index-3.php">Digital Agency</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="about-us.html">About Us</a></li>
+                                            <li><a href="about-us.php">About Us</a></li>
                                             <li class="active menu-item-has-children"><a href="#">pages</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="about-me.html">About Me</a></li>
-                                                    <li><a href="team.html">Team Page</a></li>
-                                                    <li class="active"><a href="team-details.html">Team Details</a></li>
-                                                    <li><a href="project-details.html">Portfolio Details</a></li>
-                                                    <li><a href="services-details.html">Services Details</a></li>
-                                                    <li><a href="contact.html">Contact Us</a></li>
+                                                    <li><a href="about-me.php">About Me</a></li>
+                                                    <li><a href="team.php">Team Page</a></li>
+                                                    <li class="active"><a href="team-details.php">Team Details</a></li>
+                                                    <li><a href="project-details.php">Portfolio Details</a></li>
+                                                    <li><a href="services-details.php">Services Details</a></li>
+                                                    <li><a href="contact.php">Contact Us</a></li>
                                                 </ul>
                                             </li>
                                             <li class="menu-item-has-children"><a href="#">News</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="blog.html">Our Blog</a></li>
-                                                    <li><a href="blog-details.html">Blog Details</a></li>
+                                                    <li><a href="blog.php">Our Blog</a></li>
+                                                    <li><a href="blog-details.php">Blog Details</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -100,7 +100,7 @@
                                 <nav class="menu-box">
                                     <div class="close-btn"><i class="fas fa-times"></i></div>
                                     <div class="nav-logo">
-                                        <a href="index.html"><img src="assets/img/logo/logo.png" alt="Logo"></a>
+                                        <a href="index.php"><img src="assets/img/logo/logo.png" alt="Logo"></a>
                                     </div>
                                     <div class="menu-outer">
                                         <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
@@ -169,7 +169,7 @@
                                                     </li>
                                                 </ul>
                                                 <div class="lats-chat">
-                                                    <a href="contact.html">Lat’s Chat</a>
+                                                    <a href="contact.php">Lat’s Chat</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -177,7 +177,7 @@
                                             <div class="our-best-project">
                                                 <div class="content">
                                                     <h4 class="title">One of Our <span>Best Ongoing</span> Projects</h4>
-                                                    <a href="project-details.html" class="btn">Details <span></span></a>
+                                                    <a href="project-details.php" class="btn">Details <span></span></a>
                                                 </div>
                                                 <div class="thumb">
                                                     <img src="assets/img/images/our_project_img.png" alt="">
@@ -196,11 +196,11 @@
                                             <h4 class="title">Need Help Choosing a Plan?</h4>
                                         </div>
                                         <p>We offer solutions for businesses of all sizes. For questions about our plans and products,,
-                                            contact our team of experts. <a href="contact.html">Get in touch</a></p>
+                                            contact our team of experts. <a href="contact.php">Get in touch</a></p>
                                     </div>
                                     <div class="content-bottom">
-                                        <a href="contact.html">Support</a>
-                                        <a href="contact.html">Documentation</a>
+                                        <a href="contact.php">Support</a>
+                                        <a href="contact.php">Documentation</a>
                                     </div>
                                 </div>
                             </div>
@@ -227,7 +227,7 @@
                                 <h2 class="title">Team Details</h2>
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
-                                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                        <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                                         <li class="breadcrumb-item active" aria-current="page">Team Details</li>
                                     </ol>
                                 </nav>
@@ -543,19 +543,19 @@
                             <div class="col-lg-4">
                                 <div class="inner-project-item horizoital-item">
                                     <div class="inner-project-thumb">
-                                        <a href="project-details.html"><img src="assets/img/project/inner_two_project01.jpg" alt=""></a>
+                                        <a href="project-details.php"><img src="assets/img/project/inner_two_project01.jpg" alt=""></a>
                                     </div>
                                     <div class="inner-project-content">
-                                        <h3 class="title"><a href="project-details.html">Motion Design</a></h3>
+                                        <h3 class="title"><a href="project-details.php">Motion Design</a></h3>
                                         <p>Lorem Ipsum is simply</p>
                                     </div>
                                 </div>
                                 <div class="inner-project-item vertical-item">
                                     <div class="inner-project-thumb">
-                                        <a href="project-details.html"><img src="assets/img/project/inner_two_project02.jpg" alt=""></a>
+                                        <a href="project-details.php"><img src="assets/img/project/inner_two_project02.jpg" alt=""></a>
                                     </div>
                                     <div class="inner-project-content">
-                                        <h3 class="title"><a href="project-details.html">Motion Design</a></h3>
+                                        <h3 class="title"><a href="project-details.php">Motion Design</a></h3>
                                         <p>Lorem Ipsum is simply</p>
                                     </div>
                                 </div>
@@ -563,19 +563,19 @@
                             <div class="col-lg-4">
                                 <div class="inner-project-item horizoital-item">
                                     <div class="inner-project-thumb">
-                                        <a href="project-details.html"><img src="assets/img/project/inner_two_project04.jpg" alt=""></a>
+                                        <a href="project-details.php"><img src="assets/img/project/inner_two_project04.jpg" alt=""></a>
                                     </div>
                                     <div class="inner-project-content">
-                                        <h3 class="title"><a href="project-details.html">Motion Design</a></h3>
+                                        <h3 class="title"><a href="project-details.php">Motion Design</a></h3>
                                         <p>Lorem Ipsum is simply</p>
                                     </div>
                                 </div>
                                 <div class="inner-project-item vertical-item">
                                     <div class="inner-project-thumb">
-                                        <a href="project-details.html"><img src="assets/img/project/inner_two_project03.jpg" alt=""></a>
+                                        <a href="project-details.php"><img src="assets/img/project/inner_two_project03.jpg" alt=""></a>
                                     </div>
                                     <div class="inner-project-content">
-                                        <h3 class="title"><a href="project-details.html">Motion Design</a></h3>
+                                        <h3 class="title"><a href="project-details.php">Motion Design</a></h3>
                                         <p>Lorem Ipsum is simply</p>
                                     </div>
                                 </div>
@@ -583,19 +583,19 @@
                             <div class="col-lg-4">
                                 <div class="inner-project-item horizoital-item">
                                     <div class="inner-project-thumb">
-                                        <a href="project-details.html"><img src="assets/img/project/inner_two_project05.jpg" alt=""></a>
+                                        <a href="project-details.php"><img src="assets/img/project/inner_two_project05.jpg" alt=""></a>
                                     </div>
                                     <div class="inner-project-content">
-                                        <h3 class="title"><a href="project-details.html">Motion Design</a></h3>
+                                        <h3 class="title"><a href="project-details.php">Motion Design</a></h3>
                                         <p>Lorem Ipsum is simply</p>
                                     </div>
                                 </div>
                                 <div class="inner-project-item vertical-item">
                                     <div class="inner-project-thumb">
-                                        <a href="project-details.html"><img src="assets/img/project/inner_two_project06.jpg" alt=""></a>
+                                        <a href="project-details.php"><img src="assets/img/project/inner_two_project06.jpg" alt=""></a>
                                     </div>
                                     <div class="inner-project-content">
-                                        <h3 class="title"><a href="project-details.html">Motion Design</a></h3>
+                                        <h3 class="title"><a href="project-details.php">Motion Design</a></h3>
                                         <p>Lorem Ipsum is simply</p>
                                     </div>
                                 </div>
@@ -603,19 +603,19 @@
                             <div class="col-lg-4">
                                 <div class="inner-project-item horizoital-item">
                                     <div class="inner-project-thumb">
-                                        <a href="project-details.html"><img src="assets/img/project/inner_two_project08.jpg" alt=""></a>
+                                        <a href="project-details.php"><img src="assets/img/project/inner_two_project08.jpg" alt=""></a>
                                     </div>
                                     <div class="inner-project-content">
-                                        <h3 class="title"><a href="project-details.html">Motion Design</a></h3>
+                                        <h3 class="title"><a href="project-details.php">Motion Design</a></h3>
                                         <p>Lorem Ipsum is simply</p>
                                     </div>
                                 </div>
                                 <div class="inner-project-item vertical-item">
                                     <div class="inner-project-thumb">
-                                        <a href="project-details.html"><img src="assets/img/project/inner_two_project07.jpg" alt=""></a>
+                                        <a href="project-details.php"><img src="assets/img/project/inner_two_project07.jpg" alt=""></a>
                                     </div>
                                     <div class="inner-project-content">
-                                        <h3 class="title"><a href="project-details.html">Motion Design</a></h3>
+                                        <h3 class="title"><a href="project-details.php">Motion Design</a></h3>
                                         <p>Lorem Ipsum is simply</p>
                                     </div>
                                 </div>
@@ -623,19 +623,19 @@
                             <div class="col-lg-4">
                                 <div class="inner-project-item horizoital-item">
                                     <div class="inner-project-thumb">
-                                        <a href="project-details.html"><img src="assets/img/project/inner_two_project09.jpg" alt=""></a>
+                                        <a href="project-details.php"><img src="assets/img/project/inner_two_project09.jpg" alt=""></a>
                                     </div>
                                     <div class="inner-project-content">
-                                        <h3 class="title"><a href="project-details.html">Motion Design</a></h3>
+                                        <h3 class="title"><a href="project-details.php">Motion Design</a></h3>
                                         <p>Lorem Ipsum is simply</p>
                                     </div>
                                 </div>
                                 <div class="inner-project-item vertical-item">
                                     <div class="inner-project-thumb">
-                                        <a href="project-details.html"><img src="assets/img/project/inner_two_project10.jpg" alt=""></a>
+                                        <a href="project-details.php"><img src="assets/img/project/inner_two_project10.jpg" alt=""></a>
                                     </div>
                                     <div class="inner-project-content">
-                                        <h3 class="title"><a href="project-details.html">Motion Design</a></h3>
+                                        <h3 class="title"><a href="project-details.php">Motion Design</a></h3>
                                         <p>Lorem Ipsum is simply</p>
                                     </div>
                                 </div>
@@ -643,19 +643,19 @@
                             <div class="col-lg-4">
                                 <div class="inner-project-item horizoital-item">
                                     <div class="inner-project-thumb">
-                                        <a href="project-details.html"><img src="assets/img/project/inner_two_project08.jpg" alt=""></a>
+                                        <a href="project-details.php"><img src="assets/img/project/inner_two_project08.jpg" alt=""></a>
                                     </div>
                                     <div class="inner-project-content">
-                                        <h3 class="title"><a href="project-details.html">Motion Design</a></h3>
+                                        <h3 class="title"><a href="project-details.php">Motion Design</a></h3>
                                         <p>Lorem Ipsum is simply</p>
                                     </div>
                                 </div>
                                 <div class="inner-project-item vertical-item">
                                     <div class="inner-project-thumb">
-                                        <a href="project-details.html"><img src="assets/img/project/inner_two_project07.jpg" alt=""></a>
+                                        <a href="project-details.php"><img src="assets/img/project/inner_two_project07.jpg" alt=""></a>
                                     </div>
                                     <div class="inner-project-content">
-                                        <h3 class="title"><a href="project-details.html">Motion Design</a></h3>
+                                        <h3 class="title"><a href="project-details.php">Motion Design</a></h3>
                                         <p>Lorem Ipsum is simply</p>
                                     </div>
                                 </div>
@@ -750,7 +750,7 @@
                             <div class="col-lg-3 col-sm-6">
                                 <div class="footer-widget">
                                     <div class="logo">
-                                        <a href="index.html"><img src="assets/img/logo/w_logo.png" alt=""></a>
+                                        <a href="index.php"><img src="assets/img/logo/w_logo.png" alt=""></a>
                                     </div>
                                     <div class="footer-social">
                                         <ul class="list-wrap">
@@ -771,10 +771,10 @@
                                     <h4 class="fw-title">Primary Pages</h4>
                                     <div class="fw-link">
                                         <ul class="list-wrap">
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="about-us.html">About</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                            <li><a href="services-details.html">Service</a></li>
+                                            <li><a href="index.php">Home</a></li>
+                                            <li><a href="about-us.php">About</a></li>
+                                            <li><a href="contact.php">Contact</a></li>
+                                            <li><a href="services-details.php">Service</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -784,10 +784,10 @@
                                     <h4 class="fw-title">Pages</h4>
                                     <div class="fw-link">
                                         <ul class="list-wrap">
-                                            <li><a href="about-us.html">About</a></li>
-                                            <li><a href="contact.html">Pricing</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                            <li><a href="contact.html">Request for Demo</a></li>
+                                            <li><a href="about-us.php">About</a></li>
+                                            <li><a href="contact.php">Pricing</a></li>
+                                            <li><a href="contact.php">Contact</a></li>
+                                            <li><a href="contact.php">Request for Demo</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -847,5 +847,5 @@
         <script src="assets/js/main.js"></script>
     </body>
 
-<!-- Mirrored from themedox.com/demo/xolio/team-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 Jan 2024 08:38:31 GMT -->
+<!-- Mirrored from themedox.com/demo/xolio/team-details.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 Jan 2024 08:38:31 GMT -->
 </html>

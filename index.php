@@ -1,3 +1,41 @@
+<?php
+header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Headers: *");
+// Database connection
+$servername = "localhost"; // Usually "localhost" on GoDaddy
+$username = "navmake";
+$password = "Navmake@123";
+$database = "navmake";
+
+$conn = new mysqli($servername, $username, $password, $database);
+
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+// Fetch category
+$query = "SELECT * from contactform_data";
+
+$result = $conn->query($query);
+
+if ($result->num_rows > 0) {
+    $address = array();
+
+    while ($row = $result->fetch_assoc()) {
+        $address[] = $row;
+    }
+
+    // Return the products as JSON
+    header("Content-Type: application/json");
+    echo json_encode($address);
+} else {
+    // echo json_encode(array("message" => "No Address found."));
+}
+
+$conn->close();
+?>
+
+
 <!doctype html>
 <html class="no-js" lang="en">
     
@@ -58,28 +96,28 @@
                             <div class="menu-wrap">
                                 <nav class="menu-nav">
                                     <div class="logo">
-                                        <a href="index.html"><img src="assets/img/logo/navmake_logo.png" alt="Logo"></a>
+                                        <a href="index.php"><img src="assets/img/logo/navmake_logo.png" alt="Logo"></a>
                                     </div>
                                     <div class="navbar-wrap main-menu d-none d-lg-flex">
                                         <ul class="navigation">
-                                            <li class="active"><a href="index.html">Home</a>
+                                            <li class="active"><a href="index.php">Home</a>
                                             </li>
-                                            <li><a href="about-us.html">About Us</a></li>
-                                            <li><a href="contact.html">Contact Us</a></li>
-                                            <!--<li class="menu-item-has-children"><a href="#">pages</a>-->
-                                            <!--    <ul class="sub-menu">-->
-                                            <!--        <li><a href="about-me.html">About Me</a></li>-->
-                                            <!--        <li><a href="team.html">Team Page</a></li>-->
-                                            <!--        <li><a href="team-details.html">Team Details</a></li>-->
-                                            <!--        <li><a href="project-details.html">Portfolio Details</a></li>-->
-                                            <!--        <li><a href="services-details.html">Services Details</a></li>-->
-                                            <!--        <li><a href="contact.html">Contact Us</a></li>-->
-                                            <!--    </ul>-->
-                                            <!--</li>-->
+                                            <li><a href="about-us.php">About Us</a></li>
+                                            <li class="menu-item-has-children"><a href="">Services</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="web-development.php">Web Development</a></li>
+                                                    <li><a href="app-development.php">App Development</a></li>
+                                                    <li><a href="digital-marketing.php">Digital Marketing</a></li>
+                                                    <li><a href="branding-design.php">Branding Design</a></li>
+                                                    <!--<li><a href="services-details.php">Services Details</a></li>-->
+                                                    <!--<li><a href="contact.php">Contact Us</a></li>-->
+                                                </ul>
+                                            </li>
+                                            <li><a href="contact.php">Contact Us</a></li>
                                             <!--<li class="menu-item-has-children"><a href="#">News</a>-->
                                             <!--    <ul class="sub-menu">-->
-                                            <!--        <li><a href="blog.html">Our Blog</a></li>-->
-                                            <!--        <li><a href="blog-details.html">Blog Details</a></li>-->
+                                            <!--        <li><a href="blog.php">Our Blog</a></li>-->
+                                            <!--        <li><a href="blog-details.php">Blog Details</a></li>-->
                                             <!--    </ul>-->
                                             <!--</li>-->
                                         </ul>
@@ -97,18 +135,18 @@
                                 <nav class="menu-box">
                                     <div class="close-btn"><i class="fas fa-times"></i></div>
                                     <div class="nav-logo">
-                                        <a href="index.html"><img src="assets/img/logo/logo.png" alt="Logo"></a>
+                                        <a href="index.php"><img src="assets/img/logo/logo.png" alt="Logo"></a>
                                     </div>
                                     <div class="menu-outer">
                                         <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
                                     </div>
                                     <div class="social-links">
                                         <ul class="clearfix list-wrap">
-                                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="https://www.instagram.com/navmake/"><i class="fab fa-instagram"></i></a></li>
+                                            <li><a href="https://www.facebook.com/profile.php?id=61555995312554"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="https://twitter.com/navmake_in"><i class="fab fa-twitter"></i></a></li>
                                         
-                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                            <!--<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>-->
                                             <!--<li><a href="#"><i class="fab fa-youtube"></i></a></li>-->
                                         </ul>
                                     </div>
@@ -167,7 +205,7 @@
                                                     </li>
                                                 </ul>
                                                 <div class="lats-chat">
-                                                    <a href="contact.html">Let’s Chat</a>
+                                                    <a href="contact.php">Let’s Chat</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -175,7 +213,7 @@
                                         <!--    <div class="our-best-project">-->
                                         <!--        <div class="content">-->
                                         <!--            <h4 class="title">One of Our <span>Best Ongoing</span> Projects</h4>-->
-                                        <!--            <a href="project-details.html" class="btn">Details <span></span></a>-->
+                                        <!--            <a href="project-details.php" class="btn">Details <span></span></a>-->
                                         <!--        </div>-->
                                         <!--        <div class="thumb">-->
                                         <!--            <img src="assets/img/images/our_project_img.png" alt="">-->
@@ -194,11 +232,11 @@
                                             <h4 class="title">Need Help Choosing a Plan?</h4>
                                         </div>
                                         <p>We offer solutions for businesses of all sizes. For questions about our plans and products,,
-                                            contact our team of experts. <a href="contact.html">Get in touch</a></p>
+                                            contact our team of experts. <a href="contact.php">Get in touch</a></p>
                                     </div>
                                     <!--<div class="content-bottom">-->
-                                    <!--    <a href="contact.html">Support</a>-->
-                                    <!--    <a href="contact.html">Documentation</a>-->
+                                    <!--    <a href="contact.php">Support</a>-->
+                                    <!--    <a href="contact.php">Documentation</a>-->
                                     <!--</div>-->
                                 </div>
                             </div>
@@ -229,7 +267,7 @@
                             <div class="banner-content">
                                 <span class="sub-title wow fadeInUp" data-wow-delay=".2s">Innovate. <strong>Create.</strong> Elevate.</span>
                                 <h2 class="title wow fadeInUp" data-wow-delay=".4s">Empowering Growth Through Innovative Digital Solutions</h2>
-                                <a href="contact.html" class="btn wow fadeInUp" data-wow-delay=".6s">Contact Us <span></span></a>
+                                <a href="contact.php" class="btn wow fadeInUp" data-wow-delay=".6s">Contact Us <span></span></a>
                             </div>
                         </div>
                     </div>
@@ -256,7 +294,7 @@
                                     <img src="assets/img/icon/services_icon01.png" alt="">
                                 </div>
                                 <div class="services-content">
-                                    <h4 class="title"><a href="services-details.html">Web Development</a></h4>
+                                    <h4 class="title"><a href="web-development.php">Web Development</a></h4>
                                     <p>Building captivating websites that blend aesthetics and functionality, ensuring a seamless digital experience for your audience.</p>
                                 </div>
                             </div>
@@ -267,7 +305,7 @@
                                     <img src="assets/img/icon/services_icon02.png" alt="">
                                 </div>
                                 <div class="services-content">
-                                    <h4 class="title"><a href="services-details.html">App Development</a></h4>
+                                    <h4 class="title"><a href="app-development.php">App Development</a></h4>
                                     <p>Transforming your ideas into dynamic mobile applications, delivering innovation and engagement with every tap.</p>
                                 </div>
                             </div>
@@ -278,7 +316,7 @@
                                     <img src="assets/img/icon/services_icon03.png" alt="">
                                 </div>
                                 <div class="services-content">
-                                    <h4 class="title"><a href="services-details.html">Digital Marketing</a></h4>
+                                    <h4 class="title"><a href="digital-marketing.php">Digital Marketing</a></h4>
                                     <p>Strategically amplifying your online footprint, we curate compelling campaigns that drive visibility, engagement, and business growth.</p>
                                 </div>
                             </div>
@@ -289,7 +327,7 @@
                                     <img src="assets/img/icon/services_icon04.png" alt="">
                                 </div>
                                 <div class="services-content">
-                                    <h4 class="title"><a href="services-details.html">Branding Design</a></h4>
+                                    <h4 class="title"><a href="branding-design.php">Branding Design</a></h4>
                                     <p>Providing creative graphic design services for branding, marketing collateral, and digital assets.</p>
                                 </div>
                             </div>
@@ -339,7 +377,7 @@
                                     <div class="about-content-bottom">
                                         <span>Explore Our Story Behind Every Innovation</span>
                                         <div class="read-more-btn">
-                                            <a href="about-us.html" class="btn">Read More <span></span></a>
+                                            <a href="about-us.php" class="btn">Read More <span></span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -371,7 +409,7 @@
                                     <h2 class="title">An Essential Aspect of Creativity is Not Being Afraid to Fail</h2>
                                 </div>
                                 <p>Dive into the heartbeat of NavMake. Our team is more than professionals; we're a dynamic blend of visionaries, creators, and tech enthusiasts. Each member brings a unique set of skills and passion to the table, united by a common goal: crafting digital excellence. Meet the faces behind the innovation, and discover the talent driving the success of NavMake. As we navigate the ever-evolving digital landscape, our team stands as the foundation of creativity, expertise, and unwavering commitment to turning your ideas into impactful realities.</p>
-                                <a href="team.html" class="btn">Meet Our Team<span></span></a>
+                                <a href="team.php" class="btn">Meet Our Team<span></span></a>
                             </div>
                         </div>
                     </div>
@@ -395,7 +433,7 @@
             <!--                    </div>-->
             <!--                    <p>Explore our showcase of impactful digital projects—testaments to our innovation and commitment to excellence.</p>-->
             <!--                    <div class="content-bottom">-->
-            <!--                        <a href="about-me.html" class="btn">View All Project <span></span></a>-->
+            <!--                        <a href="about-me.php" class="btn">View All Project <span></span></a>-->
             <!--                        <div class="project-nav">-->
             <!--                            <button class="swiper-button-prev"></button>-->
             <!--                            <button class="swiper-button-next"></button>-->
@@ -409,22 +447,22 @@
             <!--                        <div class="swiper-wrapper">-->
             <!--                            <div class="swiper-slide">-->
             <!--                                <div class="project-item">-->
-            <!--                                    <a href="project-details.html"><img src="assets/img/project/project_img01.jpg" alt=""></a>-->
+            <!--                                    <a href="project-details.php"><img src="assets/img/project/project_img01.jpg" alt=""></a>-->
             <!--                                </div>-->
             <!--                            </div>-->
             <!--                            <div class="swiper-slide">-->
             <!--                                <div class="project-item">-->
-            <!--                                    <a href="project-details.html"><img src="assets/img/project/project_img02.jpg" alt=""></a>-->
+            <!--                                    <a href="project-details.php"><img src="assets/img/project/project_img02.jpg" alt=""></a>-->
             <!--                                </div>-->
             <!--                            </div>-->
             <!--                            <div class="swiper-slide">-->
             <!--                                <div class="project-item">-->
-            <!--                                    <a href="project-details.html"><img src="assets/img/project/project_img03.jpg" alt=""></a>-->
+            <!--                                    <a href="project-details.php"><img src="assets/img/project/project_img03.jpg" alt=""></a>-->
             <!--                                </div>-->
             <!--                            </div>-->
             <!--                            <div class="swiper-slide">-->
             <!--                                <div class="project-item">-->
-            <!--                                    <a href="project-details.html" class="popup-image"><img src="assets/img/project/project_img02.jpg" alt=""></a>-->
+            <!--                                    <a href="project-details.php" class="popup-image"><img src="assets/img/project/project_img02.jpg" alt=""></a>-->
             <!--                                </div>-->
             <!--                            </div>-->
             <!--                        </div>-->
@@ -701,18 +739,18 @@
                         <div class="col-lg-5">
                             <div class="consultation-form-wrap">
                                 <h4 class="title">Free Consultation</h4>
-                                <form action="#">
+                                <form id="myForm">
                                     <div class="form-grp">
-                                        <input type="text" placeholder="Name">
+                                        <input type="text" id="name" placeholder="Name">
                                     </div>
                                     <div class="form-grp">
-                                        <input type="email" placeholder="Email Address">
+                                        <input type="email" id="email" placeholder="Email Address">
                                     </div>
                                     <div class="form-grp">
-                                        <input type="text" placeholder="Phone Number">
+                                        <input type="text" id="phoneNumber" placeholder="Phone Number">
                                     </div>
                                     <div class="form-grp">
-                                        <select id="shortBy" name="select" class="form-select" aria-label="Default select example">
+                                        <select id="subject" name="select" class="form-select" aria-label="Default select example">
                                             <option value="">Subject</option>
                                             <option>Subject One</option>
                                             <option>Subject Two</option>
@@ -725,6 +763,17 @@
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+                <div id="toast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="toast-header">
+                    <strong class="me-auto">Please Fill All Fields</strong>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                    </div>
+                    <div class="toast-body">
+                    This is a sample toast message.
+                    </div>
+                </div>
                 </div>
                 <div class="consultation-shape-wrap">
                     <img src="assets/img/images/consultation_shape01.png" alt="" class="shape-one ribbonRotate">
@@ -749,17 +798,17 @@
             <!--            <div class="col-lg-4 col-md-6">-->
             <!--                <div class="blog-post-item">-->
             <!--                    <div class="blog-post-thumb">-->
-            <!--                        <a href="blog-details.html"><img src="assets/img/blog/blog_img01.jpg" alt=""></a>-->
+            <!--                        <a href="blog-details.php"><img src="assets/img/blog/blog_img01.jpg" alt=""></a>-->
             <!--                    </div>-->
             <!--                    <div class="blog-post-content">-->
-            <!--                        <a href="blog.html" class="tag">Branding</a>-->
-            <!--                        <h2 class="title"><a href="blog-details.html">How To Create JavaScript Vanilla Gantt Chart: Adding</a></h2>-->
+            <!--                        <a href="blog.php" class="tag">Branding</a>-->
+            <!--                        <h2 class="title"><a href="blog-details.php">How To Create JavaScript Vanilla Gantt Chart: Adding</a></h2>-->
             <!--                        <div class="blog-meta">-->
             <!--                            <ul class="list-wrap">-->
             <!--                                <li class="avatar-img">-->
-            <!--                                    <a href="blog.html"><img src="assets/img/blog/blog_avatar01.png" alt=""></a>-->
+            <!--                                    <a href="blog.php"><img src="assets/img/blog/blog_avatar01.png" alt=""></a>-->
             <!--                                </li>-->
-            <!--                                <li>By <a href="blog.html">Ataur</a></li>-->
+            <!--                                <li>By <a href="blog.php">Ataur</a></li>-->
             <!--                            </ul>-->
             <!--                        </div>-->
             <!--                    </div>-->
@@ -768,17 +817,17 @@
             <!--            <div class="col-lg-4 col-md-6">-->
             <!--                <div class="blog-post-item">-->
             <!--                    <div class="blog-post-thumb">-->
-            <!--                        <a href="blog-details.html"><img src="assets/img/blog/blog_img02.jpg" alt=""></a>-->
+            <!--                        <a href="blog-details.php"><img src="assets/img/blog/blog_img02.jpg" alt=""></a>-->
             <!--                    </div>-->
             <!--                    <div class="blog-post-content">-->
-            <!--                        <a href="blog.html" class="tag">Branding</a>-->
-            <!--                        <h2 class="title"><a href="blog-details.html">How To Create JavaScript Vanilla Gantt Chart: Adding</a></h2>-->
+            <!--                        <a href="blog.php" class="tag">Branding</a>-->
+            <!--                        <h2 class="title"><a href="blog-details.php">How To Create JavaScript Vanilla Gantt Chart: Adding</a></h2>-->
             <!--                        <div class="blog-meta">-->
             <!--                            <ul class="list-wrap">-->
             <!--                                <li class="avatar-img">-->
-            <!--                                    <a href="blog.html"><img src="assets/img/blog/blog_avatar02.png" alt=""></a>-->
+            <!--                                    <a href="blog.php"><img src="assets/img/blog/blog_avatar02.png" alt=""></a>-->
             <!--                                </li>-->
-            <!--                                <li>By <a href="blog.html">Ataur</a></li>-->
+            <!--                                <li>By <a href="blog.php">Ataur</a></li>-->
             <!--                            </ul>-->
             <!--                        </div>-->
             <!--                    </div>-->
@@ -787,17 +836,17 @@
             <!--            <div class="col-lg-4 col-md-6">-->
             <!--                <div class="blog-post-item">-->
             <!--                    <div class="blog-post-thumb">-->
-            <!--                        <a href="blog-details.html"><img src="assets/img/blog/blog_img03.jpg" alt=""></a>-->
+            <!--                        <a href="blog-details.php"><img src="assets/img/blog/blog_img03.jpg" alt=""></a>-->
             <!--                    </div>-->
             <!--                    <div class="blog-post-content">-->
-            <!--                        <a href="blog.html" class="tag">Branding</a>-->
-            <!--                        <h2 class="title"><a href="blog-details.html">How To Create JavaScript Vanilla Gantt Chart: Adding</a></h2>-->
+            <!--                        <a href="blog.php" class="tag">Branding</a>-->
+            <!--                        <h2 class="title"><a href="blog-details.php">How To Create JavaScript Vanilla Gantt Chart: Adding</a></h2>-->
             <!--                        <div class="blog-meta">-->
             <!--                            <ul class="list-wrap">-->
             <!--                                <li class="avatar-img">-->
-            <!--                                    <a href="blog.html"><img src="assets/img/blog/blog_avatar03.png" alt=""></a>-->
+            <!--                                    <a href="blog.php"><img src="assets/img/blog/blog_avatar03.png" alt=""></a>-->
             <!--                                </li>-->
-            <!--                                <li>By <a href="blog.html">Ataur</a></li>-->
+            <!--                                <li>By <a href="blog.php">Ataur</a></li>-->
             <!--                            </ul>-->
             <!--                        </div>-->
             <!--                    </div>-->
@@ -854,15 +903,15 @@
                             <div class="col-lg-3 col-sm-6">
                                 <div class="footer-widget">
                                     <div class="logo">
-                                        <a href="index.html"><img src="assets/img/logo/w_logo.png" alt=""></a>
+                                        <a href="index.php"><img src="assets/img/logo/w_logo.png" alt=""></a>
                                     </div>
                                     <div class="footer-social">
                                         <ul class="list-wrap">
-                                               <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li class="active"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                               <li><a href="https://www.instagram.com/navmake/"><i class="fab fa-instagram"></i></a></li>
+                                            <li><a href="https://www.facebook.com/profile.php?id=61555995312554"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li ><a href="https://twitter.com/navmake_in"><i class="fab fa-twitter"></i></a></li>
                                          
-                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                            <!--<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>-->
                                         </ul>
                                     </div>
                                     <div class="footer-contact">
@@ -876,10 +925,10 @@
                                     <h4 class="fw-title">Primary Pages</h4>
                                     <div class="fw-link">
                                         <ul class="list-wrap">
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="about-us.html">About</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                            <!--<li><a href="services-details.html">Service</a></li>-->
+                                            <li><a href="index.php">Home</a></li>
+                                            <li><a href="about-us.php">About</a></li>
+                                            <li><a href="contact.php">Contact</a></li>
+                                            <!--<li><a href="services-details.php">Service</a></li>-->
                                         </ul>
                                     </div>
                                 </div>
@@ -889,10 +938,10 @@
                             <!--        <h4 class="fw-title">Pages</h4>-->
                             <!--        <div class="fw-link">-->
                             <!--            <ul class="list-wrap">-->
-                            <!--                <li><a href="about-us.html">About</a></li>-->
-                            <!--                <li><a href="contact.html">Pricing</a></li>-->
-                            <!--                <li><a href="contact.html">Contact</a></li>-->
-                            <!--                <li><a href="contact.html">Request for Demo</a></li>-->
+                            <!--                <li><a href="about-us.php">About</a></li>-->
+                            <!--                <li><a href="contact.php">Pricing</a></li>-->
+                            <!--                <li><a href="contact.php">Contact</a></li>-->
+                            <!--                <li><a href="contact.php">Request for Demo</a></li>-->
                             <!--            </ul>-->
                             <!--        </div>-->
                             <!--    </div>-->
@@ -935,6 +984,57 @@
 
 
         <!-- JS here -->
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+              const form = document.querySelector("form");
+          
+              form.addEventListener("submit", function (event) {
+                event.preventDefault();
+                var name = document.getElementById("name").value;
+                var email = document.getElementById("email").value;
+                var phoneNumber = document.getElementById("phoneNumber").value;
+                var subject = document.getElementById("subject").value;
+                
+                console.log("djklsjkf",name, email, phoneNumber, subject);
+                if(name == ""){
+                    var toastEl = document.getElementById('toast');
+                    var toast = new bootstrap.Toast(toastEl);
+
+                    function showToast(message) {
+                    var toastBody = toastEl.querySelector('.toast-body');
+                    toastBody.textContent = message;
+                    toast.show();
+                    }
+
+                    // Example: Show toast when the page loads
+                    showToast('Welcome to the website!');
+                }
+                axios.post(
+                  "https://api.sendinblue.com/v3/smtp/email",
+                  {
+                    sender: { email: "sagarchopra271@gmail.com" },
+                    to: [{ email: "navmakemanager@gmail.com" }],
+                    subject: "New Consultation Request",
+                    htmlContent: `<p>New consultation request:</p><p>Name: ${name}</p><p>Email: ${email}</p><p>Phone: ${phoneNumber}</p><p>Subject: ${subject}</p>`,
+                  },
+                  {
+                    headers: {
+                      "Content-Type": "application/json",
+                      "api-key": "",
+                    },
+                  }
+                )
+                  .then((response) => {
+                    console.log("Email sent successfully", response);
+                    // You can redirect the user or show a success message here
+                  })
+                  .catch((error) => {
+                    console.error("Error sending email", error);
+                    // Handle errors or show an error message to the user
+                  });
+              });
+            });
+          </script>
         <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
         <script src="assets/js/isotope.pkgd.min.js"></script>
@@ -950,7 +1050,8 @@
         <script src="assets/js/tween-max.js"></script>
         <script src="assets/js/wow.min.js"></script>
         <script src="assets/js/main.js"></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     </body>
 
-<!-- Mirrored from themedox.com/demo/xolio/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 Jan 2024 08:37:43 GMT -->
+<!-- Mirrored from themedox.com/demo/xolio/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 Jan 2024 08:37:43 GMT -->
 </html>

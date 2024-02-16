@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en">
     
-<!-- Mirrored from themedox.com/demo/xolio/index-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 Jan 2024 08:38:05 GMT -->
+<!-- Mirrored from themedox.com/demo/xolio/index-3.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 Jan 2024 08:38:05 GMT -->
 <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -57,32 +57,32 @@
                             <div class="menu-wrap">
                                 <nav class="menu-nav">
                                     <div class="logo">
-                                        <a href="index.html"><img src="assets/img/logo/logo.png" alt="Logo"></a>
+                                        <a href="index.php"><img src="assets/img/logo/logo.png" alt="Logo"></a>
                                     </div>
                                     <div class="navbar-wrap main-menu d-none d-lg-flex">
                                         <ul class="navigation">
                                             <li class="active menu-item-has-children"><a href="#">Home</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="index.html">Creative Agency</a></li>
-                                                    <li><a href="index-2.html">Personal Portfolio</a></li>
-                                                    <li class="active"><a href="index-3.html">Digital Agency</a></li>
+                                                    <li><a href="index.php">Creative Agency</a></li>
+                                                    <li><a href="index-2.php">Personal Portfolio</a></li>
+                                                    <li class="active"><a href="index-3.php">Digital Agency</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="about-us.html">About Us</a></li>
+                                            <li><a href="about-us.php">About Us</a></li>
                                             <li class="menu-item-has-children"><a href="#">pages</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="about-me.html">About Me</a></li>
-                                                    <li><a href="team.html">Team Page</a></li>
-                                                    <li><a href="team-details.html">Team Details</a></li>
-                                                    <li><a href="project-details.html">Portfolio Details</a></li>
-                                                    <li><a href="services-details.html">Services Details</a></li>
-                                                    <li><a href="contact.html">Contact Us</a></li>
+                                                    <li><a href="about-me.php">About Me</a></li>
+                                                    <li><a href="team.php">Team Page</a></li>
+                                                    <li><a href="team-details.php">Team Details</a></li>
+                                                    <li><a href="project-details.php">Portfolio Details</a></li>
+                                                    <li><a href="services-details.php">Services Details</a></li>
+                                                    <li><a href="contact.php">Contact Us</a></li>
                                                 </ul>
                                             </li>
                                             <li class="menu-item-has-children"><a href="#">News</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="blog.html">Our Blog</a></li>
-                                                    <li><a href="blog-details.html">Blog Details</a></li>
+                                                    <li><a href="blog.php">Our Blog</a></li>
+                                                    <li><a href="blog-details.php">Blog Details</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -100,7 +100,7 @@
                                 <nav class="menu-box">
                                     <div class="close-btn"><i class="fas fa-times"></i></div>
                                     <div class="nav-logo">
-                                        <a href="index.html"><img src="assets/img/logo/logo.png" alt="Logo"></a>
+                                        <a href="index.php"><img src="assets/img/logo/logo.png" alt="Logo"></a>
                                     </div>
                                     <div class="menu-outer">
                                         <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
@@ -169,7 +169,7 @@
                                                     </li>
                                                 </ul>
                                                 <div class="lats-chat">
-                                                    <a href="contact.html">Lat’s Chat</a>
+                                                    <a href="contact.php">Lat’s Chat</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -177,7 +177,7 @@
                                             <div class="our-best-project">
                                                 <div class="content">
                                                     <h4 class="title">One of Our <span>Best Ongoing</span> Projects</h4>
-                                                    <a href="project-details.html" class="btn">Details <span></span></a>
+                                                    <a href="project-details.php" class="btn">Details <span></span></a>
                                                 </div>
                                                 <div class="thumb">
                                                     <img src="assets/img/images/our_project_img.png" alt="">
@@ -196,11 +196,11 @@
                                             <h4 class="title">Need Help Choosing a Plan?</h4>
                                         </div>
                                         <p>We offer solutions for businesses of all sizes. For questions about our plans and products,,
-                                            contact our team of experts. <a href="contact.html">Get in touch</a></p>
+                                            contact our team of experts. <a href="contact.php">Get in touch</a></p>
                                     </div>
                                     <div class="content-bottom">
-                                        <a href="contact.html">Support</a>
-                                        <a href="contact.html">Documentation</a>
+                                        <a href="contact.php">Support</a>
+                                        <a href="contact.php">Documentation</a>
                                     </div>
                                 </div>
                             </div>
@@ -234,7 +234,7 @@
                                         <h2 class="title" data-animation="fadeInUp" data-delay=".2s">Digital Agency Business Make Big Deal.</h2>
                                         <p data-animation="fadeInUp" data-delay=".4s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the</p>
                                         <div class="slider-btn">
-                                            <a href="contact.html" class="btn" data-animation="fadeInLeft" data-delay=".6s">Get Started <span></span></a>
+                                            <a href="contact.php" class="btn" data-animation="fadeInLeft" data-delay=".6s">Get Started <span></span></a>
                                             <a href="https://www.youtube.com/watch?v=bixR-KIJKYM" class="popup-video" data-animation="fadeInRight" data-delay=".6s">See Live Demo <i class="fas fa-play pulse"></i></a>
                                         </div>
                                     </div>
@@ -255,7 +255,7 @@
                                         <h2 class="title" data-animation="fadeInUp" data-delay=".2s">Digital Agency Business Make Big Deal.</h2>
                                         <p data-animation="fadeInUp" data-delay=".4s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the</p>
                                         <div class="slider-btn">
-                                            <a href="contact.html" class="btn" data-animation="fadeInLeft" data-delay=".6s">Get Started <span></span></a>
+                                            <a href="contact.php" class="btn" data-animation="fadeInLeft" data-delay=".6s">Get Started <span></span></a>
                                             <a href="https://www.youtube.com/watch?v=bixR-KIJKYM" class="popup-video" data-animation="fadeInRight" data-delay=".6s">See Live Demo <i class="fas fa-play pulse"></i></a>
                                         </div>
                                     </div>
@@ -276,7 +276,7 @@
                                         <h2 class="title" data-animation="fadeInUp" data-delay=".2s">Digital Agency Business Make Big Deal.</h2>
                                         <p data-animation="fadeInUp" data-delay=".4s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the</p>
                                         <div class="slider-btn">
-                                            <a href="contact.html" class="btn" data-animation="fadeInLeft" data-delay=".6s">Get Started <span></span></a>
+                                            <a href="contact.php" class="btn" data-animation="fadeInLeft" data-delay=".6s">Get Started <span></span></a>
                                             <a href="https://www.youtube.com/watch?v=bixR-KIJKYM" class="popup-video" data-animation="fadeInRight" data-delay=".6s">See Live Demo <i class="fas fa-play pulse"></i></a>
                                         </div>
                                     </div>
@@ -316,9 +316,9 @@
                                         <img src="assets/img/icon/h3_services_icon01.png" alt="">
                                     </div>
                                     <div class="services-content-three">
-                                        <h3 class="title"><a href="services-details.html">UI/UX Design</a></h3>
+                                        <h3 class="title"><a href="services-details.php">UI/UX Design</a></h3>
                                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                        <a href="services-details.html" class="link-btn">Learn More <i class="fal fa-long-arrow-right"></i></a>
+                                        <a href="services-details.php" class="link-btn">Learn More <i class="fal fa-long-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -328,9 +328,9 @@
                                         <img src="assets/img/icon/h3_services_icon02.png" alt="">
                                     </div>
                                     <div class="services-content-three">
-                                        <h3 class="title"><a href="services-details.html">Website Design</a></h3>
+                                        <h3 class="title"><a href="services-details.php">Website Design</a></h3>
                                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                        <a href="services-details.html" class="link-btn">Learn More <i class="fal fa-long-arrow-right"></i></a>
+                                        <a href="services-details.php" class="link-btn">Learn More <i class="fal fa-long-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -340,9 +340,9 @@
                                         <img src="assets/img/icon/h3_services_icon03.png" alt="">
                                     </div>
                                     <div class="services-content-three">
-                                        <h3 class="title"><a href="services-details.html">Branding</a></h3>
+                                        <h3 class="title"><a href="services-details.php">Branding</a></h3>
                                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                        <a href="services-details.html" class="link-btn">Learn More <i class="fal fa-long-arrow-right"></i></a>
+                                        <a href="services-details.php" class="link-btn">Learn More <i class="fal fa-long-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -352,9 +352,9 @@
                                         <img src="assets/img/icon/h3_services_icon01.png" alt="">
                                     </div>
                                     <div class="services-content-three">
-                                        <h3 class="title"><a href="services-details.html">UI/UX Design</a></h3>
+                                        <h3 class="title"><a href="services-details.php">UI/UX Design</a></h3>
                                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                        <a href="services-details.html" class="link-btn">Learn More <i class="fal fa-long-arrow-right"></i></a>
+                                        <a href="services-details.php" class="link-btn">Learn More <i class="fal fa-long-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -364,9 +364,9 @@
                                         <img src="assets/img/icon/h3_services_icon02.png" alt="">
                                     </div>
                                     <div class="services-content-three">
-                                        <h3 class="title"><a href="services-details.html">Website Design</a></h3>
+                                        <h3 class="title"><a href="services-details.php">Website Design</a></h3>
                                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                        <a href="services-details.html" class="link-btn">Learn More <i class="fal fa-long-arrow-right"></i></a>
+                                        <a href="services-details.php" class="link-btn">Learn More <i class="fal fa-long-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -376,9 +376,9 @@
                                         <img src="assets/img/icon/h3_services_icon03.png" alt="">
                                     </div>
                                     <div class="services-content-three">
-                                        <h3 class="title"><a href="services-details.html">Branding</a></h3>
+                                        <h3 class="title"><a href="services-details.php">Branding</a></h3>
                                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                        <a href="services-details.html" class="link-btn">Learn More <i class="fal fa-long-arrow-right"></i></a>
+                                        <a href="services-details.php" class="link-btn">Learn More <i class="fal fa-long-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -452,7 +452,7 @@
                                 </div>
                                 <p class="info-one">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
                                 <p class="info-two">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
-                                <a href="about-us.html" class="btn">Learn More <span></span></a>
+                                <a href="about-us.php" class="btn">Learn More <span></span></a>
                             </div>
                         </div>
                     </div>
@@ -527,7 +527,7 @@
                                     <h2 class="title">Over 2000+ Completed Work & Still Counting.</h2>
                                 </div>
                                 <p class="info">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
-                                <a href="about-us.html" class="btn">Learn More <span></span></a>
+                                <a href="about-us.php" class="btn">Learn More <span></span></a>
                             </div>
                         </div>
                     </div>
@@ -578,56 +578,56 @@
                                                 <div class="swiper-slide">
                                                     <div class="project-item-three">
                                                         <div class="project-content-three">
-                                                            <h2 class="title"><a href="project-details.html">Hosting Website Design</a></h2>
+                                                            <h2 class="title"><a href="project-details.php">Hosting Website Design</a></h2>
                                                             <p>At Collax we specialize in designing, building, shipping...</p>
                                                         </div>
                                                         <div class="project-thumb-three">
-                                                            <a href="project-details.html"><img src="assets/img/project/h3_project_img01.jpg" alt=""></a>
+                                                            <a href="project-details.php"><img src="assets/img/project/h3_project_img01.jpg" alt=""></a>
                                                         </div>
                                                         <div class="project-details-btn">
-                                                            <a href="project-details.html">View Case Studies</a>
+                                                            <a href="project-details.php">View Case Studies</a>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="swiper-slide">
                                                     <div class="project-item-three">
                                                         <div class="project-content-three">
-                                                            <h2 class="title"><a href="project-details.html">Hosting Website Design</a></h2>
+                                                            <h2 class="title"><a href="project-details.php">Hosting Website Design</a></h2>
                                                             <p>At Collax we specialize in designing, building, shipping...</p>
                                                         </div>
                                                         <div class="project-thumb-three">
-                                                            <a href="project-details.html"><img src="assets/img/project/h3_project_img02.jpg" alt=""></a>
+                                                            <a href="project-details.php"><img src="assets/img/project/h3_project_img02.jpg" alt=""></a>
                                                         </div>
                                                         <div class="project-details-btn">
-                                                            <a href="project-details.html">View Case Studies</a>
+                                                            <a href="project-details.php">View Case Studies</a>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="swiper-slide">
                                                     <div class="project-item-three">
                                                         <div class="project-content-three">
-                                                            <h2 class="title"><a href="project-details.html">Hosting Website Design</a></h2>
+                                                            <h2 class="title"><a href="project-details.php">Hosting Website Design</a></h2>
                                                             <p>At Collax we specialize in designing, building, shipping...</p>
                                                         </div>
                                                         <div class="project-thumb-three">
-                                                            <a href="project-details.html"><img src="assets/img/project/h3_project_img03.jpg" alt=""></a>
+                                                            <a href="project-details.php"><img src="assets/img/project/h3_project_img03.jpg" alt=""></a>
                                                         </div>
                                                         <div class="project-details-btn">
-                                                            <a href="project-details.html">View Case Studies</a>
+                                                            <a href="project-details.php">View Case Studies</a>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="swiper-slide">
                                                     <div class="project-item-three">
                                                         <div class="project-content-three">
-                                                            <h2 class="title"><a href="project-details.html">Hosting Website Design</a></h2>
+                                                            <h2 class="title"><a href="project-details.php">Hosting Website Design</a></h2>
                                                             <p>At Collax we specialize in designing, building, shipping...</p>
                                                         </div>
                                                         <div class="project-thumb-three">
-                                                            <a href="project-details.html"><img src="assets/img/project/h3_project_img04.jpg" alt=""></a>
+                                                            <a href="project-details.php"><img src="assets/img/project/h3_project_img04.jpg" alt=""></a>
                                                         </div>
                                                         <div class="project-details-btn">
-                                                            <a href="project-details.html">View Case Studies</a>
+                                                            <a href="project-details.php">View Case Studies</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -640,56 +640,56 @@
                                                 <div class="swiper-slide">
                                                     <div class="project-item-three">
                                                         <div class="project-content-three">
-                                                            <h2 class="title"><a href="project-details.html">Hosting Website Design</a></h2>
+                                                            <h2 class="title"><a href="project-details.php">Hosting Website Design</a></h2>
                                                             <p>At Collax we specialize in designing, building, shipping...</p>
                                                         </div>
                                                         <div class="project-thumb-three">
-                                                            <a href="project-details.html"><img src="assets/img/project/h3_project_img02.jpg" alt=""></a>
+                                                            <a href="project-details.php"><img src="assets/img/project/h3_project_img02.jpg" alt=""></a>
                                                         </div>
                                                         <div class="project-details-btn">
-                                                            <a href="project-details.html">View Case Studies</a>
+                                                            <a href="project-details.php">View Case Studies</a>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="swiper-slide">
                                                     <div class="project-item-three">
                                                         <div class="project-content-three">
-                                                            <h2 class="title"><a href="project-details.html">Hosting Website Design</a></h2>
+                                                            <h2 class="title"><a href="project-details.php">Hosting Website Design</a></h2>
                                                             <p>At Collax we specialize in designing, building, shipping...</p>
                                                         </div>
                                                         <div class="project-thumb-three">
-                                                            <a href="project-details.html"><img src="assets/img/project/h3_project_img01.jpg" alt=""></a>
+                                                            <a href="project-details.php"><img src="assets/img/project/h3_project_img01.jpg" alt=""></a>
                                                         </div>
                                                         <div class="project-details-btn">
-                                                            <a href="project-details.html">View Case Studies</a>
+                                                            <a href="project-details.php">View Case Studies</a>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="swiper-slide">
                                                     <div class="project-item-three">
                                                         <div class="project-content-three">
-                                                            <h2 class="title"><a href="project-details.html">Hosting Website Design</a></h2>
+                                                            <h2 class="title"><a href="project-details.php">Hosting Website Design</a></h2>
                                                             <p>At Collax we specialize in designing, building, shipping...</p>
                                                         </div>
                                                         <div class="project-thumb-three">
-                                                            <a href="project-details.html"><img src="assets/img/project/h3_project_img03.jpg" alt=""></a>
+                                                            <a href="project-details.php"><img src="assets/img/project/h3_project_img03.jpg" alt=""></a>
                                                         </div>
                                                         <div class="project-details-btn">
-                                                            <a href="project-details.html">View Case Studies</a>
+                                                            <a href="project-details.php">View Case Studies</a>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="swiper-slide">
                                                     <div class="project-item-three">
                                                         <div class="project-content-three">
-                                                            <h2 class="title"><a href="project-details.html">Hosting Website Design</a></h2>
+                                                            <h2 class="title"><a href="project-details.php">Hosting Website Design</a></h2>
                                                             <p>At Collax we specialize in designing, building, shipping...</p>
                                                         </div>
                                                         <div class="project-thumb-three">
-                                                            <a href="project-details.html"><img src="assets/img/project/h3_project_img04.jpg" alt=""></a>
+                                                            <a href="project-details.php"><img src="assets/img/project/h3_project_img04.jpg" alt=""></a>
                                                         </div>
                                                         <div class="project-details-btn">
-                                                            <a href="project-details.html">View Case Studies</a>
+                                                            <a href="project-details.php">View Case Studies</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -702,56 +702,56 @@
                                                 <div class="swiper-slide">
                                                     <div class="project-item-three">
                                                         <div class="project-content-three">
-                                                            <h2 class="title"><a href="project-details.html">Hosting Website Design</a></h2>
+                                                            <h2 class="title"><a href="project-details.php">Hosting Website Design</a></h2>
                                                             <p>At Collax we specialize in designing, building, shipping...</p>
                                                         </div>
                                                         <div class="project-thumb-three">
-                                                            <a href="project-details.html"><img src="assets/img/project/h3_project_img01.jpg" alt=""></a>
+                                                            <a href="project-details.php"><img src="assets/img/project/h3_project_img01.jpg" alt=""></a>
                                                         </div>
                                                         <div class="project-details-btn">
-                                                            <a href="project-details.html">View Case Studies</a>
+                                                            <a href="project-details.php">View Case Studies</a>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="swiper-slide">
                                                     <div class="project-item-three">
                                                         <div class="project-content-three">
-                                                            <h2 class="title"><a href="project-details.html">Hosting Website Design</a></h2>
+                                                            <h2 class="title"><a href="project-details.php">Hosting Website Design</a></h2>
                                                             <p>At Collax we specialize in designing, building, shipping...</p>
                                                         </div>
                                                         <div class="project-thumb-three">
-                                                            <a href="project-details.html"><img src="assets/img/project/h3_project_img02.jpg" alt=""></a>
+                                                            <a href="project-details.php"><img src="assets/img/project/h3_project_img02.jpg" alt=""></a>
                                                         </div>
                                                         <div class="project-details-btn">
-                                                            <a href="project-details.html">View Case Studies</a>
+                                                            <a href="project-details.php">View Case Studies</a>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="swiper-slide">
                                                     <div class="project-item-three">
                                                         <div class="project-content-three">
-                                                            <h2 class="title"><a href="project-details.html">Hosting Website Design</a></h2>
+                                                            <h2 class="title"><a href="project-details.php">Hosting Website Design</a></h2>
                                                             <p>At Collax we specialize in designing, building, shipping...</p>
                                                         </div>
                                                         <div class="project-thumb-three">
-                                                            <a href="project-details.html"><img src="assets/img/project/h3_project_img03.jpg" alt=""></a>
+                                                            <a href="project-details.php"><img src="assets/img/project/h3_project_img03.jpg" alt=""></a>
                                                         </div>
                                                         <div class="project-details-btn">
-                                                            <a href="project-details.html">View Case Studies</a>
+                                                            <a href="project-details.php">View Case Studies</a>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="swiper-slide">
                                                     <div class="project-item-three">
                                                         <div class="project-content-three">
-                                                            <h2 class="title"><a href="project-details.html">Hosting Website Design</a></h2>
+                                                            <h2 class="title"><a href="project-details.php">Hosting Website Design</a></h2>
                                                             <p>At Collax we specialize in designing, building, shipping...</p>
                                                         </div>
                                                         <div class="project-thumb-three">
-                                                            <a href="project-details.html"><img src="assets/img/project/h3_project_img04.jpg" alt=""></a>
+                                                            <a href="project-details.php"><img src="assets/img/project/h3_project_img04.jpg" alt=""></a>
                                                         </div>
                                                         <div class="project-details-btn">
-                                                            <a href="project-details.html">View Case Studies</a>
+                                                            <a href="project-details.php">View Case Studies</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -764,56 +764,56 @@
                                                 <div class="swiper-slide">
                                                     <div class="project-item-three">
                                                         <div class="project-content-three">
-                                                            <h2 class="title"><a href="project-details.html">Hosting Website Design</a></h2>
+                                                            <h2 class="title"><a href="project-details.php">Hosting Website Design</a></h2>
                                                             <p>At Collax we specialize in designing, building, shipping...</p>
                                                         </div>
                                                         <div class="project-thumb-three">
-                                                            <a href="project-details.html"><img src="assets/img/project/h3_project_img01.jpg" alt=""></a>
+                                                            <a href="project-details.php"><img src="assets/img/project/h3_project_img01.jpg" alt=""></a>
                                                         </div>
                                                         <div class="project-details-btn">
-                                                            <a href="project-details.html">View Case Studies</a>
+                                                            <a href="project-details.php">View Case Studies</a>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="swiper-slide">
                                                     <div class="project-item-three">
                                                         <div class="project-content-three">
-                                                            <h2 class="title"><a href="project-details.html">Hosting Website Design</a></h2>
+                                                            <h2 class="title"><a href="project-details.php">Hosting Website Design</a></h2>
                                                             <p>At Collax we specialize in designing, building, shipping...</p>
                                                         </div>
                                                         <div class="project-thumb-three">
-                                                            <a href="project-details.html"><img src="assets/img/project/h3_project_img02.jpg" alt=""></a>
+                                                            <a href="project-details.php"><img src="assets/img/project/h3_project_img02.jpg" alt=""></a>
                                                         </div>
                                                         <div class="project-details-btn">
-                                                            <a href="project-details.html">View Case Studies</a>
+                                                            <a href="project-details.php">View Case Studies</a>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="swiper-slide">
                                                     <div class="project-item-three">
                                                         <div class="project-content-three">
-                                                            <h2 class="title"><a href="project-details.html">Hosting Website Design</a></h2>
+                                                            <h2 class="title"><a href="project-details.php">Hosting Website Design</a></h2>
                                                             <p>At Collax we specialize in designing, building, shipping...</p>
                                                         </div>
                                                         <div class="project-thumb-three">
-                                                            <a href="project-details.html"><img src="assets/img/project/h3_project_img03.jpg" alt=""></a>
+                                                            <a href="project-details.php"><img src="assets/img/project/h3_project_img03.jpg" alt=""></a>
                                                         </div>
                                                         <div class="project-details-btn">
-                                                            <a href="project-details.html">View Case Studies</a>
+                                                            <a href="project-details.php">View Case Studies</a>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="swiper-slide">
                                                     <div class="project-item-three">
                                                         <div class="project-content-three">
-                                                            <h2 class="title"><a href="project-details.html">Hosting Website Design</a></h2>
+                                                            <h2 class="title"><a href="project-details.php">Hosting Website Design</a></h2>
                                                             <p>At Collax we specialize in designing, building, shipping...</p>
                                                         </div>
                                                         <div class="project-thumb-three">
-                                                            <a href="project-details.html"><img src="assets/img/project/h3_project_img04.jpg" alt=""></a>
+                                                            <a href="project-details.php"><img src="assets/img/project/h3_project_img04.jpg" alt=""></a>
                                                         </div>
                                                         <div class="project-details-btn">
-                                                            <a href="project-details.html">View Case Studies</a>
+                                                            <a href="project-details.php">View Case Studies</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -921,57 +921,57 @@
                         <div class="col-lg-4 col-md-6 col-sm-10">
                             <div class="blog-item-two blog-item-three">
                                 <div class="blog-thumb-two">
-                                    <a href="blog-details.html"><img src="assets/img/blog/h2_blog_img01.jpg" alt=""></a>
+                                    <a href="blog-details.php"><img src="assets/img/blog/h2_blog_img01.jpg" alt=""></a>
                                 </div>
                                 <div class="blog-content-two">
                                     <div class="blog-meta">
                                         <ul class="list-wrap">
-                                            <li><i class="fal fa-user"></i><a href="blog-details.html">Admin</a></li>
+                                            <li><i class="fal fa-user"></i><a href="blog-details.php">Admin</a></li>
                                             <li><i class="fal fa-calendar"></i>February 10, 2022</li>
                                         </ul>
                                     </div>
-                                    <h2 class="title"><a href="blog-details.html">How To Create JavaScript Vanilla Gantt Chart: Adding</a></h2>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took...<a href="blog-details.html">Read More</a></p>
+                                    <h2 class="title"><a href="blog-details.php">How To Create JavaScript Vanilla Gantt Chart: Adding</a></h2>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took...<a href="blog-details.php">Read More</a></p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-10">
                             <div class="blog-item-two blog-item-three">
                                 <div class="blog-thumb-two">
-                                    <a href="blog-details.html"><img src="assets/img/blog/h2_blog_img02.jpg" alt=""></a>
+                                    <a href="blog-details.php"><img src="assets/img/blog/h2_blog_img02.jpg" alt=""></a>
                                 </div>
                                 <div class="blog-content-two">
                                     <div class="blog-meta">
                                         <ul class="list-wrap">
-                                            <li><i class="fal fa-user"></i><a href="blog-details.html">Admin</a></li>
+                                            <li><i class="fal fa-user"></i><a href="blog-details.php">Admin</a></li>
                                             <li><i class="fal fa-calendar"></i>February 10, 2022</li>
                                         </ul>
                                     </div>
-                                    <h2 class="title"><a href="blog-details.html">How To Create JavaScript Vanilla Gantt Chart: Adding</a></h2>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took...<a href="blog-details.html">Read More</a></p>
+                                    <h2 class="title"><a href="blog-details.php">How To Create JavaScript Vanilla Gantt Chart: Adding</a></h2>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took...<a href="blog-details.php">Read More</a></p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-10">
                             <div class="blog-item-two blog-item-three">
                                 <div class="blog-thumb-two">
-                                    <a href="blog-details.html"><img src="assets/img/blog/h2_blog_img03.jpg" alt=""></a>
+                                    <a href="blog-details.php"><img src="assets/img/blog/h2_blog_img03.jpg" alt=""></a>
                                 </div>
                                 <div class="blog-content-two">
                                     <div class="blog-meta">
                                         <ul class="list-wrap">
-                                            <li><i class="fal fa-user"></i><a href="blog-details.html">Admin</a></li>
+                                            <li><i class="fal fa-user"></i><a href="blog-details.php">Admin</a></li>
                                             <li><i class="fal fa-calendar"></i>February 10, 2022</li>
                                         </ul>
                                     </div>
-                                    <h2 class="title"><a href="blog-details.html">How To Create JavaScript Vanilla Gantt Chart: Adding</a></h2>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has een the industry's standard dummy text ever since the 1500s, when an unknown printer took...<a href="blog-details.html">Read More</a></p>
+                                    <h2 class="title"><a href="blog-details.php">How To Create JavaScript Vanilla Gantt Chart: Adding</a></h2>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has een the industry's standard dummy text ever since the 1500s, when an unknown printer took...<a href="blog-details.php">Read More</a></p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="read-more-btn text-center mt-30">
-                        <a href="blog.html" class="btn">Read More <span></span></a>
+                        <a href="blog.php" class="btn">Read More <span></span></a>
                     </div>
                 </div>
             </section>
@@ -1022,7 +1022,7 @@
                             <div class="col-xl-6 col-lg-8">
                                 <div class="footer-content-two text-center">
                                     <div class="logo">
-                                        <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                                        <a href="index.php"><img src="assets/img/logo/logo.png" alt=""></a>
                                     </div>
                                     <p>Agency is a full-service agency, busy designing and building beautiful digital products,
                                         brands, and experiences.</p>
@@ -1075,5 +1075,5 @@
         <script src="assets/js/main.js"></script>
     </body>
 
-<!-- Mirrored from themedox.com/demo/xolio/index-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 Jan 2024 08:38:15 GMT -->
+<!-- Mirrored from themedox.com/demo/xolio/index-3.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 Jan 2024 08:38:15 GMT -->
 </html>
